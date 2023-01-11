@@ -2,8 +2,7 @@
 
 ## Viewing the Jupyter notebook 
 
-If you would like to view the Jupyter Notebook, the easiest way is to navigate to the smell-classifier.ipybn file in the root directory of this repository. 
-
+If you would like to view the Jupyter Notebook, the easiest way is to navigate to the smell-classifier.ipynb using GitHub 
 ## Running the Jupyter Notebook
 
 ### JupyterLab
