@@ -1,1 +1,4 @@
-mat4py
+pandas
+sklearn
+numpy
+seaborn
