@@ -3,3 +3,6 @@ sklearn
 numpy
 seaborn
 xgboost
+tensorflow 
+keras
+keras-tuner
