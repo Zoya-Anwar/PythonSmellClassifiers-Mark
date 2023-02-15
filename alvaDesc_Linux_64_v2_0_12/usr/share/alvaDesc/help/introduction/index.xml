@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on alvaDesc</title>
+    <link>./introduction.html</link>
+    <description>Recent content in Introduction on alvaDesc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="./introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System requirements</title>
+      <link>./introduction/system_requirements.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./introduction/system_requirements.html</guid>
+      <description>alvaDesc is 64bit and supports all three major desktop operating systems:
+   Operating system Version     Windows 7, 8.1, 10   macOS OS X   Linux various distribution (tested on Fedora, Ubuntu)    </description>
+    </item>
+    
+    <item>
+      <title>License request and import</title>
+      <link>./introduction/license.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./introduction/license.html</guid>
+      <description>A valid license is necessary to make alvaDesc work. Without one, alvaDesc can only be used to either request or import a license file.
+The typical request/import license scenario is the following:
+  Install alvaDesc
+  Using alvaDesc create a license request file (file extensions: *.areq)
+  Send the license request file to your reseller
+  The reseller will send back a license file (file extensions: *.</description>
+    </item>
+    
+    <item>
+      <title>Knime extensions</title>
+      <link>./introduction/knime_extension.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./introduction/knime_extension.html</guid>
+      <description>KNIME is a free and open-source data analytics, reporting and integration platform that supports the use of independently developed plugins. A plugin that integrates alvaDesc functionalities in KNIME can be donwloaded from Alvascience&amp;rsquo;s website.
+The plugin is composed of three nodes:
+  Descriptor: calculates molecular descriptors
+  Fingerprint: calculates molecular fingerprints
+  Molecule Reader: reads standard molecule files and can be used as a source for the other two nodes (which are also compatible with KNIME standard molecule nodes)</description>
+    </item>
+    
+    <item>
+      <title>F.A.Q.</title>
+      <link>./introduction/faq.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./introduction/faq.html</guid>
+      <description>1. How can I cite alvaDesc? To see the correct citation for alvaDesc you can either:
+  Run alvaDescGUI and click on the About alvaDesc menu item
+  Run alvaDescCLI --cite
+  2. Why is a molecule rejected? The possible causes for molecule rejection are:
+  The input file is corrupted
+  If the molecule is entered as SMILES notation, unrecognised symbols have been used or some other SMILES rules have not been followed</description>
+    </item>
+    
+  </channel>
+</rss>

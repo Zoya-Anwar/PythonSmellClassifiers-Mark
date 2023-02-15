@@ -1,0 +1,2949 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="alvaDesc Help">
+<meta name="author" content="Alvascience">
+
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+
+    <title>Script file :: alvaDesc</title>
+    
+    
+    <link href="../css/nucleus.css?1652262105" rel="stylesheet">
+    <link href="../css/font-awesome.min.css?1652262105" rel="stylesheet">
+    <link href="../css/hybrid.css?1652262105" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1652262105" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1652262105" rel="stylesheet">
+    <link href="../css/auto-complete.css?1652262105" rel="stylesheet">
+    <link href="../css/theme.css?1652262105" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1652262105" rel="stylesheet">
+    
+
+    <script src="../js/jquery-2.x.min.js?1652262105"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="../cli/script_file.html">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="http://www.alvascience.com" target="_blank">
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+    
+      
+  
+  <img src="../images/alvascience.svg" width="268" alt="alvascience">
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Search...">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="../js/lunr.min.js?1652262105"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1652262105"></script>
+<script type="text/javascript">
+    
+        var baseurl = ".\/";
+    
+</script>
+<script type="text/javascript" src="../js/search.js?1652262105"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction.html" title="Introduction" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../introduction.html">
+          1. Introduction
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/system_requirements.html" title="System requirements" class="dd-item ">
+        <a href="../introduction/system_requirements.html">
+        1.1 System requirements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/license.html" title="License request and import" class="dd-item ">
+        <a href="../introduction/license.html">
+        1.2 License request and import
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/knime_extension.html" title="Knime extensions" class="dd-item ">
+        <a href="../introduction/knime_extension.html">
+        1.3 Knime extensions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/faq.html" title="F.A.Q." class="dd-item ">
+        <a href="../introduction/faq.html">
+        1.4 F.A.Q.
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/gui.html" title="Graphical User Interface" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../gui.html">
+          2. Graphical User Interface
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/load_molecules.html" title="Load the molecules" class="dd-item ">
+        <a href="../gui/load_molecules.html">
+        2.1 Load the molecules
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/calculate_descriptors.html" title="Calculate descriptors" class="dd-item ">
+        <a href="../gui/calculate_descriptors.html">
+        2.2 Calculate descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/calculate_fingerprints.html" title="Calculate fingerprints" class="dd-item ">
+        <a href="../gui/calculate_fingerprints.html">
+        2.3 Calculate fingerprints
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/analyse_data.html" title="Analyse the calculated data" class="dd-item ">
+        <a href="../gui/analyse_data.html">
+        2.4 Analyse the calculated data
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/check_charts.html" title="Check the charts" class="dd-item ">
+        <a href="../gui/check_charts.html">
+        2.5 Check the charts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/save_export_data.html" title="Save and export data" class="dd-item ">
+        <a href="../gui/save_export_data.html">
+        2.6 Save and export data
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/script_wizard.html" title="Script wizard" class="dd-item ">
+        <a href="../gui/script_wizard.html">
+        2.7 Script wizard
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/log_file.html" title="Log file" class="dd-item ">
+        <a href="../gui/log_file.html">
+        2.8 Log file
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cli.html" title="Command-line Interface" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="../cli.html">
+          3. Command-line Interface
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cli/arguments.html" title="Arguments" class="dd-item ">
+        <a href="../cli/arguments.html">
+        3.1 Arguments
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cli/script_file.html" title="Script file" class="dd-item active">
+        <a href="../cli/script_file.html">
+        3.2 Script file
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/molecules.html" title="Molecules" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../molecules.html">
+          4. Molecules
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/molecule_representation.html" title="Molecule representation" class="dd-item ">
+        <a href="../molecules/molecule_representation.html">
+        4.1 Molecule representation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/disconnected_structures.html" title="Disconnected structures" class="dd-item ">
+        <a href="../molecules/disconnected_structures.html">
+        4.2 Disconnected structures
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/partial_charges.html" title="Partial charges" class="dd-item ">
+        <a href="../molecules/partial_charges.html">
+        4.3 Partial charges
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/complex_molecules.html" title="Complex molecules" class="dd-item ">
+        <a href="../molecules/complex_molecules.html">
+        4.4 Complex molecules
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/descriptors.html" title="Descriptors" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../descriptors.html">
+          5. Descriptors
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/constitutional_descriptors.html" title="Constitutional indices" class="dd-item ">
+        <a href="../descriptors/constitutional_descriptors.html">
+        5.1 Constitutional indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/ring_descriptors.html" title="Ring descriptors" class="dd-item ">
+        <a href="../descriptors/ring_descriptors.html">
+        5.2 Ring descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/topological_indices.html" title="Topological indices" class="dd-item ">
+        <a href="../descriptors/topological_indices.html">
+        5.3 Topological indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/walk_and_path_counts.html" title="Walk and path counts" class="dd-item ">
+        <a href="../descriptors/walk_and_path_counts.html">
+        5.4 Walk and path counts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/connectivity_indices.html" title="Connectivity indices" class="dd-item ">
+        <a href="../descriptors/connectivity_indices.html">
+        5.5 Connectivity indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/information_indices.html" title="Information indices" class="dd-item ">
+        <a href="../descriptors/information_indices.html">
+        5.6 Information indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/2d_matrix-based.html" title="2D matrix-based descriptors" class="dd-item ">
+        <a href="../descriptors/2d_matrix-based.html">
+        5.7 2D matrix-based descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/2d_autocorrelation.html" title="2D autocorrelations" class="dd-item ">
+        <a href="../descriptors/2d_autocorrelation.html">
+        5.8 2D autocorrelations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/burden_eigenvalues.html" title="Burden eigenvalues" class="dd-item ">
+        <a href="../descriptors/burden_eigenvalues.html">
+        5.9 Burden eigenvalues
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/p_vsa.html" title="P_VSA-like descriptors" class="dd-item ">
+        <a href="../descriptors/p_vsa.html">
+        5.10 P_VSA-like descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/eta_indices.html" title="ETA indices" class="dd-item ">
+        <a href="../descriptors/eta_indices.html">
+        5.11 ETA indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/edge_adjacency_indices.html" title="Edge adjacency indices" class="dd-item ">
+        <a href="../descriptors/edge_adjacency_indices.html">
+        5.12 Edge adjacency indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/geometrical.html" title="Geometrical descriptors" class="dd-item ">
+        <a href="../descriptors/geometrical.html">
+        5.13 Geometrical descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_matrix-based.html" title="3D matrix-based descriptors" class="dd-item ">
+        <a href="../descriptors/3d_matrix-based.html">
+        5.14 3D matrix-based descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_autocorrelations.html" title="3D autocorrelations" class="dd-item ">
+        <a href="../descriptors/3d_autocorrelations.html">
+        5.15 3D autocorrelations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/rdf.html" title="RDF descriptors" class="dd-item ">
+        <a href="../descriptors/rdf.html">
+        5.16 RDF descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_morse.html" title="3D-MoRSE descriptors" class="dd-item ">
+        <a href="../descriptors/3d_morse.html">
+        5.17 3D-MoRSE descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/whim.html" title="WHIM descriptors" class="dd-item ">
+        <a href="../descriptors/whim.html">
+        5.18 WHIM descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/getaway.html" title="GETAWAY descriptors" class="dd-item ">
+        <a href="../descriptors/getaway.html">
+        5.19 GETAWAY descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/randic_molecular_profiles.html" title="Randic molecular profiles" class="dd-item ">
+        <a href="../descriptors/randic_molecular_profiles.html">
+        5.20 Randic molecular profiles
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/functional_groups.html" title="Functional group count" class="dd-item ">
+        <a href="../descriptors/functional_groups.html">
+        5.21 Functional group count
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/atom_centred_fragments.html" title="Atom-centred fragments" class="dd-item ">
+        <a href="../descriptors/atom_centred_fragments.html">
+        5.22 Atom-centred fragments
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/atom-type_e-state_indices.html" title="Atom-type E-state indices" class="dd-item ">
+        <a href="../descriptors/atom-type_e-state_indices.html">
+        5.23 Atom-type E-state indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/pharmacophore.html" title="Pharmacophore descriptors" class="dd-item ">
+        <a href="../descriptors/pharmacophore.html">
+        5.24 Pharmacophore descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/2d_atom_pairs.html" title="2D Atom Pairs" class="dd-item ">
+        <a href="../descriptors/2d_atom_pairs.html">
+        5.25 2D Atom Pairs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_atom_pairs.html" title="3D Atom Pairs" class="dd-item ">
+        <a href="../descriptors/3d_atom_pairs.html">
+        5.26 3D Atom Pairs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/charge_descriptors.html" title="Charge descriptors" class="dd-item ">
+        <a href="../descriptors/charge_descriptors.html">
+        5.27 Charge descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/molecular_properties.html" title="Molecular properties" class="dd-item ">
+        <a href="../descriptors/molecular_properties.html">
+        5.28 Molecular properties
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/drug_like_indices.html" title="Drug-like indices" class="dd-item ">
+        <a href="../descriptors/drug_like_indices.html">
+        5.29 Drug-like indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/cats3d.html" title="CATS 3D descriptors" class="dd-item ">
+        <a href="../descriptors/cats3d.html">
+        5.30 CATS 3D descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/whales.html" title="WHALES descriptors" class="dd-item ">
+        <a href="../descriptors/whales.html">
+        5.31 WHALES descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/mde.html" title="MDE descriptors" class="dd-item ">
+        <a href="../descriptors/mde.html">
+        5.32 MDE descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/chirality_descriptors.html" title="Chirality descriptors" class="dd-item ">
+        <a href="../descriptors/chirality_descriptors.html">
+        5.33 Chirality descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/weighting_scheme.html" title="Weighting schemes" class="dd-item ">
+        <a href="../descriptors/weighting_scheme.html">
+        5.34 Weighting schemes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/potential_pharmacophore_points.html" title="Potential Pharmacophore Points (PPP)" class="dd-item ">
+        <a href="../descriptors/potential_pharmacophore_points.html">
+        5.35 Potential Pharmacophore Points (PPP)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/matrix-based.html" title="Matrix-based descriptors" class="dd-item ">
+        <a href="../descriptors/matrix-based.html">
+        5.36 Matrix-based descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/descriptorlist.html" title="Descriptors list" class="dd-item ">
+        <a href="../descriptors/descriptorlist.html">
+        5.37 Descriptors list
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/fingerprints.html" title="Fingerprints" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../fingerprints.html">
+          6. Fingerprints
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/maccs166.html" title="MACCS 166 fingerprint" class="dd-item ">
+        <a href="../fingerprints/maccs166.html">
+        6.1 MACCS 166 fingerprint
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/hashed_fingerprints.html" title="Hashed fingerprints" class="dd-item ">
+        <a href="../fingerprints/hashed_fingerprints.html">
+        6.2 Hashed fingerprints
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/ecfp.html" title="Extended Connectivity Fingerprints (ECFP)" class="dd-item ">
+        <a href="../fingerprints/ecfp.html">
+        6.3 Extended Connectivity Fingerprints (ECFP)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/pathfp.html" title="Path Fingerprints" class="dd-item ">
+        <a href="../fingerprints/pathfp.html">
+        6.4 Path Fingerprints
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+              
+              
+          
+          
+            
+              
+              
+          
+          
+            <a href='../index.html'>Main page</a> > <a href='../cli.html'>Command-line Interface</a> > Script file
+          
+         
+            
+
+            
+          
+         
+            
+
+            
+          
+           
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
+
+        
+          <div id="chapter">
+        
+        <div id="body-inner">
+
+        
+
+
+<h2>3.2 Script file</h2>
+<p>The script file is an XML file that contains all the options available to run alvaDescCLI. It can be either generated using the <a href="../gui/script_wizard.html">Script wizard</a> or manually written. The standard file extension is .adscr.</p>
+<div class="notices tip" ><p>The decimal separator is always the period (e.g., a half is 0.5) and the thousands separators must not be used.</p></div>
+<p>The XML root node is ALVADESC which has the following sub-nodes:</p>
+<ul>
+<li><a href="#options">OPTIONS</a></li>
+<li><a href="#molfiles">MOLFILES</a></li>
+<li><a href="#fingerprints">FINGERPRINTS</a></li>
+<li><a href="#descriptors">DESCRIPTORS</a></li>
+<li><a href="#output">OUTPUT</a></li>
+</ul>
+<h4 id="options">OPTIONS</h4>
+<table>
+<thead>
+<tr>
+<th>XML tag</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AddImplicitHydrogens</td>
+<td>true or false</td>
+<td>If true adds the implicit hydrogens to MDL and MOL2 molecules</td>
+</tr>
+<tr>
+<td>UseExistingPartialCharges</td>
+<td>true or false</td>
+<td>If true loads the atomic partial charges from file (if available), otherwise alvaDescCLI calculates the atomic <a href="../molecules/partial_charges.html">partial charges</a></td>
+</tr>
+<tr>
+<td>DisconnectedCalculationOption</td>
+<td>integer</td>
+<td><a href="../molecules/disconnected_structures.html#disconnected_approach">Calculation approach on disconnected structures</a>: 0 for <a href="../molecules/disconnected_structures.html#std_approach">Standard</a>, 1 for <a href="../molecules/disconnected_structures.html#max_approach">Maximum descriptor value</a>, 2 for <a href="../molecules/disconnected_structures.html#min_approach">Minimum descriptor value</a>, 3 for <a href="../molecules/disconnected_structures.html#avg_approach">Average descriptor value</a>, 4 for <a href="../molecules/disconnected_structures.html#sum_approach">Sum of descriptor values</a>, 5 for <a href="../molecules/disconnected_structures.html#big_approach">Retain the biggest fragment</a></td>
+</tr>
+<tr>
+<td>MaxCircuits</td>
+<td>integer</td>
+<td><a href="../molecules/complex_molecules.html">Maximum number of circuits</a></td>
+</tr>
+<tr>
+<td>MaxSRDetour</td>
+<td>integer</td>
+<td><a href="../molecules/complex_molecules.html">Maximum number of smallest rings for detour distance calculation</a></td>
+</tr>
+<tr>
+<td>MaxAtomWalkPath</td>
+<td>integer</td>
+<td><a href="../molecules/complex_molecules.html">Maximum number of atoms for path and walk descriptors calculation</a></td>
+</tr>
+<tr>
+<td>RoundCoordinates</td>
+<td>true or false</td>
+<td>If true rounds the atomic coordinates to the fourth decimal digit</td>
+</tr>
+<tr>
+<td>Missing_String</td>
+<td>string</td>
+<td>Code for missing values</td>
+</tr>
+<tr>
+<td>SaveOnlyData</td>
+<td>true or false</td>
+<td>If true saves only raw data (no labels)</td>
+</tr>
+<tr>
+<td>SaveLabelsOnSeparateFile</td>
+<td>true or false</td>
+<td>If true saves labels and molecule names in two separate files (it needs SaveFile to be the only save option set to true, and SaveType set to singlefile)</td>
+</tr>
+<tr>
+<td>SaveFormatBlock</td>
+<td>string</td>
+<td>Sets the filenames when saving one file per block. (%b stands for block name and %n for block number)</td>
+</tr>
+<tr>
+<td>SaveExcludeMisVal</td>
+<td>true or false</td>
+<td>If true does not save descriptors with at least one missing value</td>
+</tr>
+<tr>
+<td>SaveExcludeAllMisVal</td>
+<td>true or false</td>
+<td>If true does not save descriptors with all missing values</td>
+</tr>
+<tr>
+<td>SaveExcludeConst</td>
+<td>true or false</td>
+<td>If true does not save constant descriptors</td>
+</tr>
+<tr>
+<td>SaveExcludeNearConst</td>
+<td>true or false</td>
+<td>If true does not save near-constant descriptors</td>
+</tr>
+<tr>
+<td>SaveExcludeStdDev</td>
+<td>true or false</td>
+<td>If true does not save descriptors with standard deviation values lower than <em>SaveStdDevThreshold</em></td>
+</tr>
+<tr>
+<td>SaveStdDevThreshold</td>
+<td>double</td>
+<td>Standard deviation threshold</td>
+</tr>
+<tr>
+<td>SaveExcludeCorrelated</td>
+<td>true or false</td>
+<td>If true applies V-WSP variable reduction method<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> using <em>SaveCorrThreshold</em> as threshold</td>
+</tr>
+<tr>
+<td>SaveCorrThreshold</td>
+<td>double</td>
+<td>Correlation threshold</td>
+</tr>
+<tr>
+<td>RoundDescriptorValues</td>
+<td>true or false</td>
+<td>If true round descriptor values using <em>DecimalDigits</em> decimal digits</td>
+</tr>
+<tr>
+<td>DecimalDigits</td>
+<td>integer</td>
+<td>Number of decimal digits for descriptor rounding</td>
+</tr>
+<tr>
+<td>AddFormula</td>
+<td>true or false</td>
+<td>If true adds chemical formula to labels</td>
+</tr>
+</tbody>
+</table>
+<h4 id="molfiles">MOLFILES</h4>
+<table>
+<thead>
+<tr>
+<th>XML tag</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>molInput</td>
+<td>file or stdin</td>
+<td>Input type</td>
+</tr>
+<tr>
+<td>molFile</td>
+<td>string</td>
+<td>Molecule file name</td>
+</tr>
+<tr>
+<td>molInputFormat</td>
+<td>SYBYL or MDL or HYPERCHEM or SMILES</td>
+<td>Molecule file format</td>
+</tr>
+</tbody>
+</table>
+<div class="notices tip" ><p><em>molFile</em> tag can be added several times and can be used only when the <em>molInput</em> tag is set to <em>file</em></p></div>
+<div class="notices note" ><p><em>molInputFormat</em> tag can be used only when the <em>molInput</em> tag is set to <em>stdin</em></p></div>
+<h4 id="fingerprints">FINGERPRINTS</h4>
+<table>
+<thead>
+<tr>
+<th>XML tag</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MACCS166</td>
+<td>true or false</td>
+<td>If true calcualtes the <a href="../fingerprints/maccs166.html">MACCS 166 fingerprint</a></td>
+</tr>
+<tr>
+<td>SaveFPToFile</td>
+<td>true or false</td>
+<td>If true saves fingerprints to files</td>
+</tr>
+<tr>
+<td>SaveOnlyFP</td>
+<td>true or false</td>
+<td>If true saves only raw data (no labels)</td>
+</tr>
+<tr>
+<td>FPheader</td>
+<td>true or false</td>
+<td>If true adds fingerprint description to file</td>
+</tr>
+<tr>
+<td>SaveFPpath</td>
+<td>string</td>
+<td>Sets the fingerprint output folder</td>
+</tr>
+</tbody>
+</table>
+<div class="notices note" ><p>alvaDesc automatically defines the fingerprint filenames</p></div>
+<p>Hashed fingerprints can be defined in the script file as follows:</p>
+<table>
+<thead>
+<tr>
+<th>XML tag</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Type</td>
+<td>ECFP or PFP</td>
+<td>If true calculates the <a href="../fingerprints/maccs166.html">MACCS 166 fingerprint</a></td>
+</tr>
+<tr>
+<td>Size</td>
+<td>integer</td>
+<td>Sets fingerprint size BitsPerPattern</td>
+</tr>
+<tr>
+<td>MinLength</td>
+<td>integer</td>
+<td>Sets the <a href="../fingerprints/hashed_fingerprints.html#fp-min">minimum length</a></td>
+</tr>
+<tr>
+<td>MaxLength</td>
+<td>integer</td>
+<td>Sets the <a href="../fingerprints/hashed_fingerprints.html#fp-max">maximum length</a></td>
+</tr>
+<tr>
+<td>CountFragments</td>
+<td>boolean</td>
+<td>If true takes into account multiple pattern occurrences</td>
+</tr>
+<tr>
+<td>AtomOptions</td>
+<td>set of atom option values</td>
+<td>Sets the atom options to be considered in pattern identification</td>
+</tr>
+</tbody>
+</table>
+<div class="notices note" ><p><em>AtomOptions</em> tag refers to the <a href="../fingerprints/hashed_fingerprints.html#fp-atom-parameters">atom parameters</a> and can have one or more of the following values: <em>Atom type</em>, <em>Aromaticity</em>, <em>Attached hydrogens</em>, <em>Connectivity (total)</em>, <em>Total bond order</em>, <em>Connectivity (no H)</em>, <em>Charge</em>, <em>Ring memberships in SSSR</em>, <em>Smallest ring size in SSSR</em>, <em>Bond order</em></p></div>
+<div class="notices tip" ><p>Multiple hashed fingerprints can be calculated within the same script file</p></div>
+<p>Hashed fingerprints can be defined as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;FP</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;0&#34;</span><span style="color:#f92672">&gt;</span>
+  <span style="color:#f92672">&lt;Type</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;ECFP&#34;</span><span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;Size</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;1024&#34;</span><span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;BitsPerPattern</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;2&#34;</span><span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;MinLength</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;0&#34;</span><span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;MaxLength</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;2&#34;</span><span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;CountFragments</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;true&#34;</span><span style="color:#f92672">/&gt;</span>
+  <span style="color:#f92672">&lt;AtomOptions</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;Atom type|Aromaticity|Connectivity (total)|Charge|Bond order&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;/FP&gt;</span>
+</code></pre></div><h4 id="descriptors">DESCRIPTORS</h4>
+<table>
+<thead>
+<tr>
+<th>XML tag</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>block id</td>
+<td>integer</td>
+<td>Block id number</td>
+</tr>
+<tr>
+<td>descriptor name</td>
+<td>string</td>
+<td>Sets the descriptor to be calculated using its symbol</td>
+</tr>
+</tbody>
+</table>
+<p>Descriptor selection can be done selecting a whole block using the following syntax:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;block</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;1&#34;</span> <span style="color:#a6e22e">SelectAll=</span><span style="color:#e6db74">&#34;true&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;block</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;2&#34;</span> <span style="color:#a6e22e">SelectAll=</span><span style="color:#e6db74">&#34;true&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;block</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;3&#34;</span> <span style="color:#a6e22e">SelectAll=</span><span style="color:#e6db74">&#34;true&#34;</span><span style="color:#f92672">/&gt;</span>
+</code></pre></div><p>Or selecting a list of descriptors using their symbols:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;block</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;1&#34;</span><span style="color:#f92672">&gt;</span>
+      <span style="color:#f92672">&lt;descriptor</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;MW&#34;</span><span style="color:#f92672">/&gt;</span>
+      <span style="color:#f92672">&lt;descriptor</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;Sv&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;/block&gt;</span>
+<span style="color:#f92672">&lt;block</span> <span style="color:#a6e22e">id=</span><span style="color:#e6db74">&#34;2&#34;</span> <span style="color:#a6e22e">SelectAll=</span><span style="color:#e6db74">&#34;true&#34;</span><span style="color:#f92672">/&gt;</span>
+</code></pre></div><h4 id="output">OUTPUT</h4>
+<table>
+<thead>
+<tr>
+<th>XML tag</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SaveStdOut</td>
+<td>true or false</td>
+<td>If true saves results to standard output</td>
+</tr>
+<tr>
+<td>SaveProject</td>
+<td>true or false</td>
+<td>If true saves results to alvaDesc project</td>
+</tr>
+<tr>
+<td>SaveProjectFile</td>
+<td>string</td>
+<td>Sets the project filename</td>
+</tr>
+<tr>
+<td>SaveFile</td>
+<td>true or false</td>
+<td>If true saves results to file(s)</td>
+</tr>
+<tr>
+<td>SaveType</td>
+<td>singlefile or block</td>
+<td>Sets the descriptors output type (singlefile = one file, block = one file per descriptor block)</td>
+</tr>
+<tr>
+<td>SaveFilePath</td>
+<td>string</td>
+<td>With SaveType=singlefile it sets the output file path, with SaveType=block it sets the output folder path</td>
+</tr>
+<tr>
+<td>logMode</td>
+<td>none or stderr or file</td>
+<td>Sets the log destination</td>
+</tr>
+<tr>
+<td>logFile</td>
+<td>string</td>
+<td>Sets the log filename</td>
+</tr>
+</tbody>
+</table>
+<div class="notices tip" ><p><em>SaveProjectFile</em> tag can be used only when the <em>SaveProject</em> tag is set to <em>true</em>, <em>SaveFilePath</em> and <em>SaveType</em> tags can be used only when the <em>SaveFile</em> tag is set to <em>true</em> and <em>logFile</em> tag can be used only when the <em>logMode</em> tag is set to <em>file</em></p></div>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Ballabio, D., Consonni, V., Mauri, A., Claeys-Bruno, M., Sergent, M., &amp; Todeschini, R. (2014). A novel variable reduction method adapted from space-filling designs. Chemometrics and Intelligent Laboratory Systems, 136, 147–154. <a href="https://doi.org/10.1016/j.chemolab.2014.05.010">https://doi.org/10.1016/j.chemolab.2014.05.010</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+            </div> 
+        
+        </div> 
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="../cli/arguments.html" title="Arguments"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="../molecules.html" title="Molecules" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../js/clipboard.min.js?1652262105"></script>
+    <script src="../js/perfect-scrollbar.min.js?1652262105"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1652262105"></script>
+    <script src="../js/jquery.sticky-kit.min.js?1652262105"></script>
+    <script src="../js/featherlight.min.js?1652262105"></script>
+    <script src="../js/html5shiv-printshiv.min.js?1652262105"></script>
+    <script src="../js/highlight.pack.js?1652262105"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../js/modernizr.custom.71422.js?1652262105"></script>
+    <script src="../js/learn.js?1652262105"></script>
+    <script src="../js/hugo-learn.js?1652262105"></script>
+
+    <link href="../mermaid/mermaid.css?1652262105" type="text/css" rel="stylesheet" />
+    <script src="../mermaid/mermaid.js?1652262105"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+
+    
+
+  </body>
+</html>
+

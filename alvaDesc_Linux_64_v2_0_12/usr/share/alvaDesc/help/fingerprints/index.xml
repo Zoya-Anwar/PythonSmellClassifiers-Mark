@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fingerprints on alvaDesc</title>
+    <link>./fingerprints.html</link>
+    <description>Recent content in Fingerprints on alvaDesc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="./fingerprints/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MACCS 166 fingerprint</title>
+      <link>./fingerprints/maccs166.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./fingerprints/maccs166.html</guid>
+      <description>alvaDesc includes its implementation of MACCS 166 fingerprint. MACCS 166 fingerprint is a fixed size structural key comprising a dictionary of 166 well-defined molecular features 1, every bit of the MACCS 166 fingerprint indicates the presence or absence of a specific molecular feature.
+  Durant, J. L., Leland, B. A., Henry, D. R., &amp;amp; Nourse, J. G. (2002). Reoptimization of MDL keys for use in drug discovery. Journal of Chemical Information and Computer Sciences, 42(6), 1273–1280.</description>
+    </item>
+    
+    <item>
+      <title>Hashed fingerprints</title>
+      <link>./fingerprints/hashed_fingerprints.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./fingerprints/hashed_fingerprints.html</guid>
+      <description>alvaDesc includes two hashed fingerprint types:
+ Extended Connectivity Fingerprints (ECFP) Path Fingerprints (PFP)  Both Extended Connectivity Fingerprints (ECFP) and Path Fingerprints (PFP) explore the molecular structure identifying all possible substructures following a rule set. An intermediary vector of variable size is created to track all the substructures of molecules. Since the number of identifiable substructures in a molecule set is not predefined, a hashing function is used to reduce the variable-size vector to one of fixed-size.</description>
+    </item>
+    
+    <item>
+      <title>Extended Connectivity Fingerprints (ECFP)</title>
+      <link>./fingerprints/ecfp.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./fingerprints/ecfp.html</guid>
+      <description>Extended Connectivity Fingerprints (ECFP)1 also known as circular fingerprints are hashed fingerprints obtained systematically enumerating all circular fragments grown radially from each non-hydrogen atom of the molecule up to the given radius (i.e. the maximum length). ECFPs are derived using a variant of the Morgan algorithm2.
+Figure 1: Example of atom selection of circular fragments from radius 0 up to radius 2Extended connectivity fingerprints can be represented as ECFPn, where n is the diameter of the largest fragment and is equal to twice the number of iterations performed (i.</description>
+    </item>
+    
+    <item>
+      <title>Path Fingerprints</title>
+      <link>./fingerprints/pathfp.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./fingerprints/pathfp.html</guid>
+      <description>Path Fingerprints are hashed fingerprints obtained systematically enumerating all not branched path fragments obtained starting from each non-hydrogen atom of the molecule up to the given maximum length (i.e. the maximum length).
+Figure 1: Identification of all fragments of 4,5-Dimethyloxazole (length 0 to 2). Duplicated fragments are highlightedFigure 2: Hashing of identified fragments. Bit collision is highlighted in redPath fingerprints are typically used to perform full structure and substructure identification, similarity searching and for similarity analysis of compound libraries.</description>
+    </item>
+    
+  </channel>
+</rss>

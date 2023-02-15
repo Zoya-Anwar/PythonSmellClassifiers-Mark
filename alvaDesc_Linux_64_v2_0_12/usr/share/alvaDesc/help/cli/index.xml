@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command-line Interface on alvaDesc</title>
+    <link>./cli.html</link>
+    <description>Recent content in Command-line Interface on alvaDesc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="./cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arguments</title>
+      <link>./cli/arguments.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./cli/arguments.html</guid>
+      <description>Three alternative arguments can be used to run alvaDescCLI:
+   Argument Description     --script=&amp;lt;SCRIPT FILE&amp;gt; or -s &amp;lt;SCRIPT FILE&amp;gt; All the available options are contained in the SCRIPT FILE. When this is used no other argument can be present on the command-line except for --verbose and --threads   --iSMILES=&amp;lt;SMILES&amp;gt; Uses a single SMILES string as input   --input[=&amp;lt;INPUT FILE&amp;gt;] It can be used to input a set of molecules either with an INPUT FILE or in the standard input (default)    Calculation arguments:</description>
+    </item>
+    
+    <item>
+      <title>Script file</title>
+      <link>./cli/script_file.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./cli/script_file.html</guid>
+      <description>The script file is an XML file that contains all the options available to run alvaDescCLI. It can be either generated using the Script wizard or manually written. The standard file extension is .adscr.
+The decimal separator is always the period (e.g., a half is 0.5) and the thousands separators must not be used.
+ The XML root node is ALVADESC which has the following sub-nodes:
+ OPTIONS MOLFILES FINGERPRINTS DESCRIPTORS OUTPUT  OPTIONS    XML tag Value Description     AddImplicitHydrogens true or false If true adds the implicit hydrogens to MDL and MOL2 molecules   UseExistingPartialCharges true or false If true loads the atomic partial charges from file (if available), otherwise alvaDescCLI calculates the atomic partial charges   DisconnectedCalculationOption integer Calculation approach on disconnected structures: 0 for Standard, 1 for Maximum descriptor value, 2 for Minimum descriptor value, 3 for Average descriptor value, 4 for Sum of descriptor values, 5 for Retain the biggest fragment   MaxCircuits integer Maximum number of circuits   MaxSRDetour integer Maximum number of smallest rings for detour distance calculation   MaxAtomWalkPath integer Maximum number of atoms for path and walk descriptors calculation   RoundCoordinates true or false If true rounds the atomic coordinates to the fourth decimal digit   Missing_String string Code for missing values   SaveOnlyData true or false If true saves only raw data (no labels)   SaveLabelsOnSeparateFile true or false If true saves labels and molecule names in two separate files (it needs SaveFile to be the only save option set to true, and SaveType set to singlefile)   SaveFormatBlock string Sets the filenames when saving one file per block.</description>
+    </item>
+    
+  </channel>
+</rss>

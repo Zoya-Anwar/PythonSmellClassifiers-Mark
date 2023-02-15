@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=alvaDesc
+Comment=alvaDesc is the next generation tool for the calculation of a wide range of molecular descriptors and a number of molecular fingerprints
+Icon=alvaDesc.png
+Categories=Science
+Terminal=false
+Type=Application
+Exec=alvaDescGUI

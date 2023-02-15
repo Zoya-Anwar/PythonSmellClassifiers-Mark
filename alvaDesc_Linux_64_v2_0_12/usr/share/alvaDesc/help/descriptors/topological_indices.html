@@ -1,0 +1,3036 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="alvaDesc Help">
+<meta name="author" content="Alvascience">
+
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+
+    <title>Topological indices :: alvaDesc</title>
+    
+    
+    <link href="../css/nucleus.css?1652262105" rel="stylesheet">
+    <link href="../css/font-awesome.min.css?1652262105" rel="stylesheet">
+    <link href="../css/hybrid.css?1652262105" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1652262105" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1652262105" rel="stylesheet">
+    <link href="../css/auto-complete.css?1652262105" rel="stylesheet">
+    <link href="../css/theme.css?1652262105" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1652262105" rel="stylesheet">
+    
+
+    <script src="../js/jquery-2.x.min.js?1652262105"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="../descriptors/topological_indices.html">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="http://www.alvascience.com" target="_blank">
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+    
+      
+  
+  <img src="../images/alvascience.svg" width="268" alt="alvascience">
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Search...">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="../js/lunr.min.js?1652262105"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1652262105"></script>
+<script type="text/javascript">
+    
+        var baseurl = ".\/";
+    
+</script>
+<script type="text/javascript" src="../js/search.js?1652262105"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/introduction.html" title="Introduction" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../introduction.html">
+          1. Introduction
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/system_requirements.html" title="System requirements" class="dd-item ">
+        <a href="../introduction/system_requirements.html">
+        1.1 System requirements
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/license.html" title="License request and import" class="dd-item ">
+        <a href="../introduction/license.html">
+        1.2 License request and import
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/knime_extension.html" title="Knime extensions" class="dd-item ">
+        <a href="../introduction/knime_extension.html">
+        1.3 Knime extensions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/introduction/faq.html" title="F.A.Q." class="dd-item ">
+        <a href="../introduction/faq.html">
+        1.4 F.A.Q.
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/gui.html" title="Graphical User Interface" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../gui.html">
+          2. Graphical User Interface
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/load_molecules.html" title="Load the molecules" class="dd-item ">
+        <a href="../gui/load_molecules.html">
+        2.1 Load the molecules
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/calculate_descriptors.html" title="Calculate descriptors" class="dd-item ">
+        <a href="../gui/calculate_descriptors.html">
+        2.2 Calculate descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/calculate_fingerprints.html" title="Calculate fingerprints" class="dd-item ">
+        <a href="../gui/calculate_fingerprints.html">
+        2.3 Calculate fingerprints
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/analyse_data.html" title="Analyse the calculated data" class="dd-item ">
+        <a href="../gui/analyse_data.html">
+        2.4 Analyse the calculated data
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/check_charts.html" title="Check the charts" class="dd-item ">
+        <a href="../gui/check_charts.html">
+        2.5 Check the charts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/save_export_data.html" title="Save and export data" class="dd-item ">
+        <a href="../gui/save_export_data.html">
+        2.6 Save and export data
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/script_wizard.html" title="Script wizard" class="dd-item ">
+        <a href="../gui/script_wizard.html">
+        2.7 Script wizard
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gui/log_file.html" title="Log file" class="dd-item ">
+        <a href="../gui/log_file.html">
+        2.8 Log file
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/cli.html" title="Command-line Interface" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../cli.html">
+          3. Command-line Interface
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cli/arguments.html" title="Arguments" class="dd-item ">
+        <a href="../cli/arguments.html">
+        3.1 Arguments
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/cli/script_file.html" title="Script file" class="dd-item ">
+        <a href="../cli/script_file.html">
+        3.2 Script file
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/molecules.html" title="Molecules" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../molecules.html">
+          4. Molecules
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/molecule_representation.html" title="Molecule representation" class="dd-item ">
+        <a href="../molecules/molecule_representation.html">
+        4.1 Molecule representation
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/disconnected_structures.html" title="Disconnected structures" class="dd-item ">
+        <a href="../molecules/disconnected_structures.html">
+        4.2 Disconnected structures
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/partial_charges.html" title="Partial charges" class="dd-item ">
+        <a href="../molecules/partial_charges.html">
+        4.3 Partial charges
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/molecules/complex_molecules.html" title="Complex molecules" class="dd-item ">
+        <a href="../molecules/complex_molecules.html">
+        4.4 Complex molecules
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/descriptors.html" title="Descriptors" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="../descriptors.html">
+          5. Descriptors
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/constitutional_descriptors.html" title="Constitutional indices" class="dd-item ">
+        <a href="../descriptors/constitutional_descriptors.html">
+        5.1 Constitutional indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/ring_descriptors.html" title="Ring descriptors" class="dd-item ">
+        <a href="../descriptors/ring_descriptors.html">
+        5.2 Ring descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/topological_indices.html" title="Topological indices" class="dd-item active">
+        <a href="../descriptors/topological_indices.html">
+        5.3 Topological indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/walk_and_path_counts.html" title="Walk and path counts" class="dd-item ">
+        <a href="../descriptors/walk_and_path_counts.html">
+        5.4 Walk and path counts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/connectivity_indices.html" title="Connectivity indices" class="dd-item ">
+        <a href="../descriptors/connectivity_indices.html">
+        5.5 Connectivity indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/information_indices.html" title="Information indices" class="dd-item ">
+        <a href="../descriptors/information_indices.html">
+        5.6 Information indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/2d_matrix-based.html" title="2D matrix-based descriptors" class="dd-item ">
+        <a href="../descriptors/2d_matrix-based.html">
+        5.7 2D matrix-based descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/2d_autocorrelation.html" title="2D autocorrelations" class="dd-item ">
+        <a href="../descriptors/2d_autocorrelation.html">
+        5.8 2D autocorrelations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/burden_eigenvalues.html" title="Burden eigenvalues" class="dd-item ">
+        <a href="../descriptors/burden_eigenvalues.html">
+        5.9 Burden eigenvalues
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/p_vsa.html" title="P_VSA-like descriptors" class="dd-item ">
+        <a href="../descriptors/p_vsa.html">
+        5.10 P_VSA-like descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/eta_indices.html" title="ETA indices" class="dd-item ">
+        <a href="../descriptors/eta_indices.html">
+        5.11 ETA indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/edge_adjacency_indices.html" title="Edge adjacency indices" class="dd-item ">
+        <a href="../descriptors/edge_adjacency_indices.html">
+        5.12 Edge adjacency indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/geometrical.html" title="Geometrical descriptors" class="dd-item ">
+        <a href="../descriptors/geometrical.html">
+        5.13 Geometrical descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_matrix-based.html" title="3D matrix-based descriptors" class="dd-item ">
+        <a href="../descriptors/3d_matrix-based.html">
+        5.14 3D matrix-based descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_autocorrelations.html" title="3D autocorrelations" class="dd-item ">
+        <a href="../descriptors/3d_autocorrelations.html">
+        5.15 3D autocorrelations
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/rdf.html" title="RDF descriptors" class="dd-item ">
+        <a href="../descriptors/rdf.html">
+        5.16 RDF descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_morse.html" title="3D-MoRSE descriptors" class="dd-item ">
+        <a href="../descriptors/3d_morse.html">
+        5.17 3D-MoRSE descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/whim.html" title="WHIM descriptors" class="dd-item ">
+        <a href="../descriptors/whim.html">
+        5.18 WHIM descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/getaway.html" title="GETAWAY descriptors" class="dd-item ">
+        <a href="../descriptors/getaway.html">
+        5.19 GETAWAY descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/randic_molecular_profiles.html" title="Randic molecular profiles" class="dd-item ">
+        <a href="../descriptors/randic_molecular_profiles.html">
+        5.20 Randic molecular profiles
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/functional_groups.html" title="Functional group count" class="dd-item ">
+        <a href="../descriptors/functional_groups.html">
+        5.21 Functional group count
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/atom_centred_fragments.html" title="Atom-centred fragments" class="dd-item ">
+        <a href="../descriptors/atom_centred_fragments.html">
+        5.22 Atom-centred fragments
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/atom-type_e-state_indices.html" title="Atom-type E-state indices" class="dd-item ">
+        <a href="../descriptors/atom-type_e-state_indices.html">
+        5.23 Atom-type E-state indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/pharmacophore.html" title="Pharmacophore descriptors" class="dd-item ">
+        <a href="../descriptors/pharmacophore.html">
+        5.24 Pharmacophore descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/2d_atom_pairs.html" title="2D Atom Pairs" class="dd-item ">
+        <a href="../descriptors/2d_atom_pairs.html">
+        5.25 2D Atom Pairs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/3d_atom_pairs.html" title="3D Atom Pairs" class="dd-item ">
+        <a href="../descriptors/3d_atom_pairs.html">
+        5.26 3D Atom Pairs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/charge_descriptors.html" title="Charge descriptors" class="dd-item ">
+        <a href="../descriptors/charge_descriptors.html">
+        5.27 Charge descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/molecular_properties.html" title="Molecular properties" class="dd-item ">
+        <a href="../descriptors/molecular_properties.html">
+        5.28 Molecular properties
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/drug_like_indices.html" title="Drug-like indices" class="dd-item ">
+        <a href="../descriptors/drug_like_indices.html">
+        5.29 Drug-like indices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/cats3d.html" title="CATS 3D descriptors" class="dd-item ">
+        <a href="../descriptors/cats3d.html">
+        5.30 CATS 3D descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/whales.html" title="WHALES descriptors" class="dd-item ">
+        <a href="../descriptors/whales.html">
+        5.31 WHALES descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/mde.html" title="MDE descriptors" class="dd-item ">
+        <a href="../descriptors/mde.html">
+        5.32 MDE descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/chirality_descriptors.html" title="Chirality descriptors" class="dd-item ">
+        <a href="../descriptors/chirality_descriptors.html">
+        5.33 Chirality descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/weighting_scheme.html" title="Weighting schemes" class="dd-item ">
+        <a href="../descriptors/weighting_scheme.html">
+        5.34 Weighting schemes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/potential_pharmacophore_points.html" title="Potential Pharmacophore Points (PPP)" class="dd-item ">
+        <a href="../descriptors/potential_pharmacophore_points.html">
+        5.35 Potential Pharmacophore Points (PPP)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/matrix-based.html" title="Matrix-based descriptors" class="dd-item ">
+        <a href="../descriptors/matrix-based.html">
+        5.36 Matrix-based descriptors
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/descriptors/descriptorlist.html" title="Descriptors list" class="dd-item ">
+        <a href="../descriptors/descriptorlist.html">
+        5.37 Descriptors list
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/fingerprints.html" title="Fingerprints" class="dd-item 
+        
+        
+        
+        ">
+      <a href="../fingerprints.html">
+          6. Fingerprints
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/maccs166.html" title="MACCS 166 fingerprint" class="dd-item ">
+        <a href="../fingerprints/maccs166.html">
+        6.1 MACCS 166 fingerprint
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/hashed_fingerprints.html" title="Hashed fingerprints" class="dd-item ">
+        <a href="../fingerprints/hashed_fingerprints.html">
+        6.2 Hashed fingerprints
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/ecfp.html" title="Extended Connectivity Fingerprints (ECFP)" class="dd-item ">
+        <a href="../fingerprints/ecfp.html">
+        6.3 Extended Connectivity Fingerprints (ECFP)
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/fingerprints/pathfp.html" title="Path Fingerprints" class="dd-item ">
+        <a href="../fingerprints/pathfp.html">
+        6.4 Path Fingerprints
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                  
+                  
+                  
+                  
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+              
+              
+          
+          
+            
+              
+              
+          
+          
+            <a href='../index.html'>Main page</a> > <a href='../descriptors.html'>Descriptors</a> > Topological indices
+          
+         
+            
+
+            
+          
+         
+            
+
+            
+          
+           
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
+
+        
+          <div id="chapter">
+        
+        <div id="body-inner">
+
+        
+
+
+<h2>5.3 Topological indices</h2>
+<p>Topological indices (<strong>TIs</strong>) are two-dimensional descriptors derived from the topological representation of molecular structures (i.e., molecular graph); no information about spatial distribution of the atoms is considered in the calculation of these descriptors<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup>,</sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Topological indices block provides six logical groups of descriptors:</p>
+<ul>
+<li><a href="#vertex_degree_indices">Vertex degree-based indices</a></li>
+<li><a href="#distance_indices">Distance-based indices</a></li>
+<li><a href="#mti_indices">MTI indices</a></li>
+<li><a href="#pathwalk_indices">Path/walk indices</a></li>
+<li><a href="#estate_indices">E-state indices</a></li>
+<li><a href="#centric_indices">Centric indices</a></li>
+</ul>
+<p>In addition to the topological indices included in the <em>Topological indices</em> block, alvaDesc calculates some specific blocks of topological indices, such as:</p>
+<ul>
+<li>
+<p><a href="../descriptors/walk_and_path_counts.html">Walk and path counts</a></p>
+</li>
+<li>
+<p><a href="../descriptors/connectivity_indices.html">Connectivity indices</a></p>
+</li>
+<li>
+<p><a href="../descriptors/information_indices.html">Information indices</a></p>
+</li>
+<li>
+<p><a href="../descriptors/2d_matrix-based.html">2D matrix-based descriptors</a></p>
+</li>
+<li>
+<p><a href="../descriptors/2d_autocorrelation.html">2D autocorrelations</a></p>
+</li>
+<li>
+<p><a href="../descriptors/burden_eigenvalues.html">Burden eigenvalues</a></p>
+</li>
+<li>
+<p><a href="../descriptors/eta_indices.html">ETA indices</a></p>
+</li>
+<li>
+<p><a href="../descriptors/edge_adjacency_indices.html">Edge adjacency indices</a></p>
+</li>
+</ul>
+<h4 id="vertex_degree_indices">Vertex degree-based indices</h4>
+<p>Vertex degree-based indices collects a set of topological indices calculated on an H-depleted molecular graph based on the vertex degree and on the valence vertex degree<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<p>Valence vertex degree is calculated as:</p>
+<center><img src="../images/conn_vvd.png" width="350" alt="VVD"></center>
+<p>where <em>Z<sub>i</sub><sup>v</sup></em> is the number of valence electrons (<em>σ</em> electrons, <em>π</em> electrons and lone pair electrons <em>n</em>) of the <em>i-th</em> atom and <em>h<sub>i</sub></em> is the number of hydrogen atoms bonded to it.</p>
+<div class="notices note" ><p><a href="../descriptors/connectivity_indices.html">Kier-Hall valence connectivity indices</a> calculates the valence vertex degree using an extended formula for atoms having a principal quantum number greater than two</p></div>
+<div class="alvacomment"></div>
+<p>The first Zagreb index (<strong>ZM1</strong>)<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup><sup>,</sup><sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> is defined as the sum of the squared vertex degrees over all non-hydrogen atoms:</p>
+<center><img src="../images/ZM1.png" width="150" alt="ZM1"></center>
+<p>The second Zagreb index (<strong>ZM2</strong>) is the sum over all adjacent vertices of the product of the vertex degrees of the two adjacent atoms<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup><sup>,</sup><sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>:</p>
+<center><img src="../images/ZM2.png" width="200" alt="ZM2"></center>
+<p><strong>ZM2</strong> considers only the pair of bonded atoms (therefore, given a bond <em>b</em>, it works with its two atoms <em>b,1</em> and <em>b,2</em>).</p>
+<p>The first Zagreb index by valence vertex degrees (<strong>ZM1V</strong>) and second Zagreb index by valence vertex degrees (<strong>ZM2V</strong>) are calculated considering the valence vertex degree.</p>
+<p>The first Zagreb index by Kupchik vertex degrees (<strong>ZM1Kup</strong>) and second Zagreb index by Kupchik vertex degrees (<strong>ZM2Kup</strong>) are calculated considering the valence vertex degrees modified to account for heteroatoms by the use of covalent radii.</p>
+<p>The Kupchik vertex degree is defined as<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup><sup>,</sup><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>:</p>
+<center><img src="../images/conn_vvdkupchik.png" width="250" alt="VVD_Kupchik"></center>
+<p>where <em>R<sub>C</sub></em> and <em>R<sub>i</sub></em> are the covalent radius of the carbon atom and of the <em>i-th</em> atom, <em>Z<sub>i</sub><sup>v</sup></em> is the number of valence electrons of the <em>i-th</em> atom and <em>h<sub>i</sub></em> is the number of hydrogen atoms bonded to it.</p>
+<p>The first Zagreb index by Madan vertex degrees (<strong>ZM1Mad</strong>) and second Zagreb index by Madan vertex degrees (<strong>ZM2Mad</strong>) are calculated considering the Madan chemical degrees<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup><sup>,</sup><sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>. The Madan vertex degree is calculated by summing up relative atomic weights of all bonded atoms, assuming the carbon atom weight as the reference.</p>
+<p>The first Zagreb index by perturbation vertex degrees (<strong>ZM1Per</strong>) and second Zagreb index by perturbation vertex degrees (<strong>ZM2Per</strong>) are calculated considering the perturbation delta values<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>.
+Perturbation delta values are modified valence vertex degrees calculated as:</p>
+<center><img src="../images/conn_vvdgombar.png" width="300" alt="VVD_Gombar"></center>
+<p>where <em>a<sub>ij</sub></em> is the element <em>i,j</em> of the adjacency matrix, <em>nSK</em> is the number of non-H atoms,  <em>Z<sub>i</sub><sup>v</sup></em> is the number of valence electrons of the <em>i-th</em> atom and <em>h<sub>i</sub></em> is the number of hydrogen atoms bonded to it.</p>
+<p>The first Zagreb index by multiplicative perturbation vertex degrees (<strong>ZM1MulPer</strong>) and second Zagreb index by multiplicative perturbation vertex degrees (<strong>ZM2MulPer</strong>) are calculated considering the multiplicative perturbation delta values<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup>.
+Multiplicative perturbation delta values are defined as:</p>
+<center><img src="../images/conn_vvdct.png" width="300" alt="VVD_CT"></center>
+<p>where <em>δ<sup>v</sup></em> is the valence vertex degree, <em>nSK</em> the number of non-H atoms and <em>a<sub>ij</sub></em> the element <em>i,j</em> of the adjacency matrix.</p>
+<p>Overall modified Zagreb indices (<strong>ON0, ON1, ON0V, ON1V</strong>) are calculated considering the reciprocal vertex degrees<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>. Zero order indices (<strong>ON0, ON0V</strong>) are calculated as the sum of the reciprocal degrees over all  vertices. The first order indices (<strong>ON1, ON1V</strong>) are calculated as the sum of the reciprocal product of the degrees of the two incident vertices, over all edges.</p>
+<p><em>ON0</em> is defined as:</p>
+<center><img src="../images/conn_on0.png" width="150" alt="ON0"></center>
+<p><em>ON1</em> is defined as:</p>
+<center><img src="../images/conn_on1.png" width="200" alt="ON1"></center>
+<p>where <em>δ</em> is the vertex degree.</p>
+<p><em>ON0V</em> is defined as:</p>
+<center><img src="../images/conn_on0v.png" width="150" alt="ONOV"></center>
+<p><em>ON1V</em> is defined as:</p>
+<center><img src="../images/conn_on1v.png" width="200" alt="ON1V"></center>
+<p>where <em>δ<sup>v</sup></em> is the valence vertex degree.</p>
+<p>The quadratic index (<strong>Qindex</strong>)<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> is calculated as:</p>
+<center><img src="../images/conn_qindex.png" width="300" alt="Qindex"></center>
+<p>where <em>ZM1</em> is the first Zagreb index.</p>
+<p>Bertz branching index (<strong>BBI</strong>)<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> is defined as:</p>
+<center><img src="../images/conn_bbi.png" width="300" alt="BBI"></center>
+<p>Dragon branching index (<strong>DBI</strong>)<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup> is a modified version of the Bertz branching index.</p>
+<p>Narumi simple topological index (<strong>SNar</strong>)<sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup> is related to molecular branching.
+alvaDesc applies a logarithmic transformation in order to obtain values of <em>SNar</em> more  suitable for QSAR:</p>
+<center><img src="../images/conn_snar.png" width="200" alt="SNar"></center>
+<p>Narumi harmonic topological index (<strong>HNar</strong>) is defined as:</p>
+<center><img src="../images/conn_hnar.png" width="200" alt="HNar"></center>
+<p>Narumi geometric topological index (<strong>GNar</strong>) is defined as:</p>
+<center><img src="../images/conn_gnar.png" width="200" alt="GNar"></center>
+<p>The total structure connectivity index (<strong>Xt</strong>)<sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> is defined  as:</p>
+<center><img src="../images/conn_xt.png" width="150" alt="Xt"></center>
+<p>where <em>SNar</em> is the Narumi simple topological index.</p>
+<p>The Pogliani index (<strong>Dz</strong>)<sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup> is the sum over all non-hydrogen atoms of a modified vertex degree calculated as the ratio of the number of valence electrons over the principal quantum number of an atom.</p>
+<center><img src="../images/conn_dz.png" width="150" alt="Dz"></center>
+<p>where <em>Z<sub>i</sub><sup>v</sup></em> is the number of valence electrons and  <em>L<sub>i</sub></em> is the principal quantum number of the <em>i-th</em> atom.</p>
+<p>The ramification index (<strong>Ram</strong>)<sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup><sup>,</sup><sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup> is calculated as:</p>
+<center><img src="../images/conn_ram.png" width="250" alt="Ram"></center>
+<p>where <em><sup>3</sup>F</em> is the number of atoms having vertex degree equal to three and <em><sup>4</sup>F</em> is the number of atoms having vertex degree equal to four.</p>
+<p>Kier benzene-likeliness index (<strong>BLI</strong>)<sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup> is calculated as:</p>
+<center><img src="../images/conn_bli.png" width="150" alt="BLI"></center>
+<p>where <em>X1V</em> is the valence connectivity index of order 1.</p>
+<h4 id="distance_indices">Distance-based indices</h4>
+<p>Distance-based indices is a set of descriptors calculated on an H-depleted molecular graph based on the <a href="../descriptors/2d_matrix-based.html">topological distance</a>.</p>
+<p>The polarity number (<strong>Pol</strong>)<sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup> is calculated as the number of pairs of non-hydrogen atoms which are separated by three bonds.</p>
+<p>The Log of Product of Row Sums (<strong>LPRS</strong>) is based on the <em>PRS</em><sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup> and is calculated as:</p>
+<center><img src="../images/topo_lprs.png" width="250" alt="LPRS"></center>
+<p>where <em>nSK</em> is the number of non-hydrogen atoms, <em>σ<sub>i</sub></em> is the distance degree of the <em>i-th</em> atom.</p>
+<div class="notices note" ><p>The logarithmic transformation is applied due to the large values that <em>PRS</em> can assume on big molecules.</p></div>
+<div class="alvacomment"></div>
+<p>Mean square distance index (<strong>MSD</strong>)<sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup> is calculated as:</p>
+<center><img src="../images/topo_msd.png" width="450" alt="MSD"></center>
+<p>where <em>nSK</em> is the number of non-hydrogen atoms and <em>d<sub>ij</sub></em> is the element <em>i,j</em> of the topological distance matrix.</p>
+<p>alvaDesc calculates the Superpendentic index (<strong>SPI</strong>)<sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup> as:</p>
+<center><img src="../images/topo_spi.png" width="300" alt="SPI"></center>
+<p>where <em>DP</em> is the pendent matrix of the molecular graph. The pendent matrix is a submatrix of the distance matrix obtained by retaining the columns corresponding to pendent vertices.
+<em>SPI</em> was originally proposed as the square root of the sum of products of nonzero row elements in the pendent matrix. Logarithmic transformation has been introduced to avoid calculation overflows.</p>
+<div class="notices note" ><p>A pendent vertex is a vertex with vertex degree equal to one, in a molecular graph a pendent vertex is equivalent to a terminal atom</p></div>
+<p>The 2D Petitjean shape index (<strong>PJI2</strong>)<sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup> is calculated as:</p>
+<center><img src="../images/topo_pji2.png" width="350" alt="PJI2"></center>
+<p>where the radius of a molecule is the lower bound of the eccentricity and the diameter is the upper bound of the eccentricity.</p>
+<div class="notices note" ><p>The eccentricity of an atom <em>i</em> is the maximum topological distance from <em>i</em> to any other atom in the molecular graph</p></div>
+<p>The eccentricity (<strong>ECC</strong>)<sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> is calculated on the H-depleted molecular graph as:</p>
+<center><img src="../images/topo_ecc.png" width="200" alt="ECC"></center>
+<p>where <em>E<sub>i</sub></em> is the eccentricity of the <em>i-th</em> atom.</p>
+<p>The average eccentricity (<strong>AECC</strong>)<sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> is calculated as:</p>
+<center><img src="../images/topo_aecc.png" width="200" alt="AECC"></center>
+<p>where <em>ECC</em> is the eccentricity and <em>nSK</em> is the number of non-hydrogen atoms.</p>
+<p>Unipolarity (<strong>UNIP</strong>)<sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> is defined as:</p>
+<center><img src="../images/topo_unip.png" width="200" alt="UNIP"></center>
+<p>where <em>σ<sub>i</sub></em> is the vertex distance degree of the <em>i-th</em> atom.</p>
+<div class="notices note" ><p>The vertex distance degree of an atom is the sum of topological distances from the considered atom to any other atom in the H-depleted molecular graph</p></div>
+<p>Centralization descriptor (<strong>CENT</strong>)<sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup> is calculated as:</p>
+<center><img src="../images/topo_cent.png" width="350" alt="CENT"></center>
+<p>where <a href="../descriptors/matrix-based.html"><em>Wi_D</em> is the Wiener index</a>, <em>nSK</em> is the number of non-hydrogen atoms and <em>UNIP</em> is the unipolarity descriptor.</p>
+<div class="notices note" ><p>The Wiener index (<em>Wi_D</em>) is calculated as the half-sum of all topological distances collected in the distance matrix</p></div>
+<p>Variation descriptor (<strong>VAR</strong>)<sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> is calculated as:</p>
+<center><img src="../images/topo_var.png" width="300" alt="VAR"></center>
+<p>where <em>σ</em> is the vertex distance degree.</p>
+<p>Radial centric information index (<strong>ICR</strong>)<sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup> is calculated as:</p>
+<center><img src="../images/topo_icr.png" width="350" alt="ICR"></center>
+<p>where <em>nSK</em> is the number of non-hydrogen atoms and <em>n<sub>g</sub></em> is the number atoms having the same eccentricity.</p>
+<div class="notices note" ><p>Radial centric information index (<em>ICR</em>) is calculated as the <a href="../descriptors/information_indices.html">mean information content</a> on atom eccentricities</p></div>
+<p>alvaDesc calculates also the maximum and average topological distance (<strong>MaxTD</strong>, <strong>MeanTD</strong>) and the maximum and average detour distance (<strong>MaxDD</strong>, <strong>MeanDD</strong>).</p>
+<h4 id="mti_indices">MTI indices</h4>
+<p>MTI indices are calculated on a H-depleted molecular graph based both on the <a href="../descriptors/2d_matrix-based.html">adjacency matrix</a> and the <a href="../descriptors/2d_matrix-based.html">topological distance</a>.</p>
+<p>Schultz Molecular Topological Index (<strong>SMTI</strong>)<sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup> is calculated as:</p>
+<center><img src="../images/topo_smti.png" width="300" alt="SMTI"></center>
+<p>where <strong>A</strong> is the adjacency matrix, <strong>D</strong> is the topological distance matrix, and <strong>v</strong> is the column vector including the vertex degree of the atoms in the H-depleted molecular graph.</p>
+<div class="alvacomment"></div>
+<p>Schultz Molecular Topological Index by valence vertex degree (<strong>SMTIV</strong>) is calculated as <em>SMTI</em>, but using the valence vertex degree in place of the simple vertex degree.</p>
+<p>Gutman Molecular Topological Index (<strong>GMTI</strong>)<sup id="fnref:33"><a href="#fn:33" class="footnote-ref" role="doc-noteref">33</a></sup> is calculated as:</p>
+<center><img src="../images/topo_gmti.png" width="350" alt="GMTI"></center>
+<p>where <em>δ</em> is the vertex degree in the H-depleted molecular graph, <em>nSK</em> the number of non-hydrogen atoms and <em>d<sub>ij</sub></em> is the element <em>i,j</em> of the topological distance matrix.</p>
+<p>Gutman Molecular Topological Index by valence vertex degrees (<strong>GMTIV</strong>) is calculated as <em>GMTI</em>, but using the valence vertex degree in place of the simple vertex degree.</p>
+<p>The Xu index (<strong>Xu</strong>)<sup id="fnref:34"><a href="#fn:34" class="footnote-ref" role="doc-noteref">34</a></sup> is calculated as follows:</p>
+<center><img src="../images/topo_xu.png" width="350" alt="Xu"></center>
+<p>where <em>δ</em> is the vertex degree in the H-depleted molecular graph, <em>σ</em> is the vertex distance degree and <em>nSK</em> the number of non-hydrogen atoms.</p>
+<div class="notices note" ><p>In the paper proposing the <em>Xu</em> index, the author highlighted that the <em>Xu</em> index has good discrimination of alkane isomers and is correlated with a set of physicochemical properties using a wide range of alkanes. The author shows that the <em>Xu</em> index is highly correlated with both the normal boiling points (<em>BP</em>) of alkanes and other selected physicochemical properties</p></div>
+<p>The eccentric connectivity index (<strong>CSI</strong>)<sup id="fnref:35"><a href="#fn:35" class="footnote-ref" role="doc-noteref">35</a></sup> is calculated as:</p>
+<center><img src="../images/topo_csi.png" width="250" alt="CSI"></center>
+<p>where <em>δ</em> is the vertex degree in the H-depleted molecular graph and <em>E</em> is the eccentricity.</p>
+<h4 id="pathwalk_indices">Path/walk indices</h4>
+<p>Path/walk indices group includes a set of descriptors calculated on a H-depleted molecular graph based both on the walks and paths of the molecular graph.</p>
+<p>The all-path Wiener index (<strong>Wap</strong>)<sup id="fnref:36"><a href="#fn:36" class="footnote-ref" role="doc-noteref">36</a></sup> is a graph invariant defined as:</p>
+<center><img src="../images/topo_wap.png" width="250" alt="Wap"></center>
+<p>where <em>π<sub>i,j</sub></em> denotes a path between vertices <em>i</em> and <em>j</em> and |<em>π<sub>i,j</sub></em>| is the length of this path.</p>
+<div class="notices note" ><p><em>Wap</em> is a graph invariant having an high discriminatory power, but since <em>Wap</em> values rapidly grows it is not appropriate for use in quantitative structure-activity/property studies</p></div>
+<p>Kier alpha-modified shape indices (<strong>S1K</strong>, <strong>S2K</strong>, <strong>S3K</strong>)<sup id="fnref:37"><a href="#fn:37" class="footnote-ref" role="doc-noteref">37</a></sup><sup>,</sup><sup id="fnref:38"><a href="#fn:38" class="footnote-ref" role="doc-noteref">38</a></sup> are calculated as:</p>
+<center><img src="../images/topo_s1k.png" width="450" alt="S1K"></center>
+<center><img src="../images/topo_s2k.png" width="450" alt="S2K"></center>
+<center><img src="../images/topo_s3k.png" width="550" alt="S3K"></center>
+<p>where <em>nSK</em> is the number of non-H atoms, <em>nBO</em> is the number of non-H bonds, <em>pc<sub>2</sub></em> is the total path count of order 2, <em>pc<sub>3</sub></em> is the total path count of order 3 and α is defined as:</p>
+<center><img src="../images/topo_alpha.png" width="300" alt="alpha"></center>
+<p>where <em>R<sub>i</sub></em> is the covalent radius of atom <em>i</em> and <em>R<sub>Csp3</sub></em> is the covalent radius of <em>sp3</em> carbon atom.</p>
+<div class="alvacomment"></div>
+<p>The Kier flexibility index (<strong>PHI</strong>)<sup id="fnref:39"><a href="#fn:39" class="footnote-ref" role="doc-noteref">39</a></sup> is derived from Kier alpha-modified shape indices <em>S1K</em> and <em>S2K</em> as follows:</p>
+<center><img src="../images/topo_phi.png" width="250" alt="PHI"></center>
+<p>where <em>nSK</em> is the number of non-hydrogen atoms, <em>S1K</em> and <em>S2K</em> are the Kier alpha-modified shape indices of order 1 and 2, respectively.</p>
+<p>Path/walk Randic shape indices (<strong>PWk</strong>)<sup id="fnref:40"><a href="#fn:40" class="footnote-ref" role="doc-noteref">40</a></sup> are calculated as:</p>
+<center><img src="../images/topo_pwk.png" width="250" alt="PWK"></center>
+<p>where <em>k</em> is the path/walk order, <em>nSK</em> is the number of non-H atoms, <em>pc<sub>k</sub></em> is the number of paths of order <em>k</em> starting from atom <em>i</em> and <em>wc<sub>k</sub></em> is the number of walks of order <em>k</em> starting from atom <em>i</em>.
+alvaDesc calculates path/walk Randic shape indices from order 2 up to 5.</p>
+<div class="notices note" ><p>Path/walk Randic shape index of order 1 (<em>PW1</em>) is not calculated since the number of paths and walks of length one is the same and the corresponding molecular index equals one for all molecules</p></div>
+<h4 id="estate_indices">E-state indices</h4>
+<p>The E-state topological indices are based on the <a href="../descriptors/atom-type_e-state_indices.html">electrotopological state</a><sup id="fnref:41"><a href="#fn:41" class="footnote-ref" role="doc-noteref">41</a></sup>.</p>
+<p>The maximal electrotopological negative variation (<strong>MAXDN</strong>)<sup id="fnref:42"><a href="#fn:42" class="footnote-ref" role="doc-noteref">42</a></sup> is calculated as:</p>
+<center><img src="../images/maxdn.png" width="300" alt="MAXDN"></center>
+<p>where <em>ΔI<sub>i</sub><sup>-</sup></em> are the negative values of <em>ΔI<sub>i</sub></em>.</p>
+<p>The maximal electrotopological positive variation (<strong>MAXDP</strong>)<sup id="fnref:42"><a href="#fn:42" class="footnote-ref" role="doc-noteref">42</a></sup> is calculated as:</p>
+<center><img src="../images/maxdp.png" width="300" alt="MAXDP"></center>
+<p>where <em>ΔI<sub>i</sub><sup>+</sup></em> are the positive values of <em>ΔI<sub>i</sub></em>.</p>
+<p>The molecular electrotopological variation (<strong>DELS</strong>)<sup id="fnref:42"><a href="#fn:42" class="footnote-ref" role="doc-noteref">42</a></sup> is calculated as:</p>
+<center><img src="../images/dels.png" width="250" alt="DELS"></center>
+<div class="notices tip" ><p>According to the authors, <em>DELS</em> index could be considered as a measure of total charge transfer in the molecule</p></div>
+<p>The E-state topological parameter (<strong>TIE</strong>) is a modified version of the descriptor proposed by Voelkel<sup id="fnref:43"><a href="#fn:43" class="footnote-ref" role="doc-noteref">43</a></sup>; it is calculated as:</p>
+<center><img src="../images/tie.png" width="400" alt="TIE"></center>
+<p>where <em>nBO</em> is the number of non-H bonds, <em>nCIC</em> the cyclomatic number, <em>S<sub>b,1</sub></em> and <em>S<sub>b,2</sub></em> the electrotopological state indices for the two atoms incident to the <em>b-th</em> bond.</p>
+<p>Intrinsic state pseudoconnectvity indices<sup id="fnref:44"><a href="#fn:44" class="footnote-ref" role="doc-noteref">44</a></sup><sup>,</sup><sup id="fnref:45"><a href="#fn:45" class="footnote-ref" role="doc-noteref">45</a></sup> include molecular descriptors based on the <a href="../descriptors/weighting_scheme.html">intrinsic states</a> (<em>I<sub>i</sub></em>).</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Symbol</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Psi_i_S</td>
+<td><center><img src="../images/psi_i_s.png" width="200" alt="Psi_i_S"></center></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Psi_i_A</td>
+<td><center><img src="../images/psi_i_a.png" width="250" alt="Psi_i_A"></center></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Psi_i_0</td>
+<td><center><img src="../images/psi_i_0.png" width="250" alt="Psi_i_0"></center></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Psi_i_1</td>
+<td><center><img src="../images/psi_i_1.png" width="250" alt="Psi_i_1"></center></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Psi_i_t</td>
+<td><center><img src="../images/psi_i_t.png" width="300" alt="Psi_i_t"></center></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Psi_i_0d</td>
+<td><center><img src="../images/psi_i_0d.png" width="350" alt="Psi_i_0d"></center></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Psi_i_1d</td>
+<td><center><img src="../images/psi_i_1d.png" width="400" alt="Psi_i_1d"></center></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Psi_i_1s</td>
+<td><center><img src="../images/psi_i_1s.png" width="250" alt="Psi_i_1s"></center></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Psi_e_A</td>
+<td><center><img src="../images/psi_e_a.png" width="250" alt="Psi_e_A"></center></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Psi_e_0</td>
+<td><center><img src="../images/psi_e_0.png" width="250" alt="Psi_e_0"></center></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Psi_e_1</td>
+<td><center><img src="../images/psi_e_1.png" width="300" alt="Psi_e_1"></center></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Psi_e_t</td>
+<td><center><img src="../images/psi_e_t.png" width="400" alt="Psi_e_t"></center></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Psi_e_0d</td>
+<td><center><img src="../images/psi_e_0d.png" width="400" alt="Psi_e_0d"></center></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Psi_e_1d</td>
+<td><center><img src="../images/psi_e_1d.png" width="400" alt="Psi_e_1d"></center></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Psi_e_1s</td>
+<td><center><img src="../images/psi_e_1s.png" width="400" alt="Psi_e_1s"></center></td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center;">
+<strong>Table 1</strong>: <em>Intrinsic state pseudoconnectvity indices</em>
+</div>
+<h4 id="centric_indices">Centric indices</h4>
+<p>alvaDesc calculates two centric indices.</p>
+<p>The Balaban centric index (<strong>BAC</strong>)<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> is calculated on a H-depleted molecular graph removing iteratively the vertices of degree one. It is defined as:</p>
+<center><img src="../images/topo_bac.png" width="150" alt="BAC"></center>
+<p>where <em>δ<sub>i</sub></em> is the number of terminal vertices removed at <em>i-th</em> step.</p>
+<p>The lopping centric index (<strong>LOC</strong>)<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> is calculated as the mean information content derived from the pruning partition of a graph:</p>
+<center><img src="../images/topo_loc.png" width="300" alt="LOC"></center>
+<p>where nSK is the number of non-H atoms and <em>δ<sub>i</sub></em> is the number of terminal vertices removed at <em>i-th</em> step.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Devillers, J. &amp; Balaban, A.T. Eds. (2000). Topological Indices and Related Descriptors in QSAR and Drug Design. Gordon&amp;Breach, Amsterdam&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Mauri, A., Consonni, V., &amp; Todeschini, R. (2017). Molecular descriptors. In Handbook of Computational Chemistry (pp. 2065–2093)&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Kier, L. B., &amp; Hall, L. H. (1981). Derivation and significance of valence molecular connectivity. Journal of Pharmaceutical Sciences, 70(6), 583–589&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Gutman, I., &amp; Trinajstić, N. (1972). Graph theory and molecular orbitals. Total φ-electron energy of alternant hydrocarbons. Chemical Physics Letters, 17(4), 535–538&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>Gutman, I., &amp; Das, K. C. (2004). The first Zagreb Index 30 years after. MATCH - Communications in Mathematical and in Computer Chemistry, 50, 83–92&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p>Gutman, I., Ruščić, B., Trinajstić, N., &amp; Wilcox, C. F. (1975). Graph theory and molecular orbitals. XII. Acyclic polyenes. The Journal of Chemical Physics, 62(9), 3399–3405&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7" role="doc-endnote">
+<p>Nikolić, S., Kovačević, G., Miličević, A., &amp; Trinajstić, N. (2003). The Zagreb indices 30 years after. Croatica Chemica Acta, 76(2), 113–124&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8" role="doc-endnote">
+<p>Kupchik, E. J. (1986). Structure‐Molar Refraction Relationships of Alkylsilanes Using Empirically‐Modified First Order Molecular Connectivity Indices. Quantitative Structure‐Activity Relationships, 5(3), 95–98&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9" role="doc-endnote">
+<p>Kupchik, E. J. (1988). Structure — Molar Refraction Relationships of Alkylgermanes Using Molecular Connectivity. Quantitative Structure‐Activity Relationships, 7(2), 57–59&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10" role="doc-endnote">
+<p>Bajaj, S., Sambi, S. S., &amp; Madan, A. K. (2005). Prediction of anti-inflammatory activity of N-arylanthranilic acids: Computational approach using refined Zagreb indices. Croatica Chemica Acta, 78(2), 165–174&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11" role="doc-endnote">
+<p>Goel, A., &amp; Madan, A. K. (1995). Structure-Activity Study on Antiinflammatory Pyrazole Carboxylic Acid Hydrazide Analogs Using Molecular Connectivity Indices. Journal of Chemical Information and Computer Sciences, 35(3), 510–514. <a href="https://doi.org/10.1021/ci00025a019">https://doi.org/10.1021/ci00025a019</a>&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12" role="doc-endnote">
+<p>V.K.Gombar et al. (1987). Indian J. Chem. 26B, 1168-1170&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13" role="doc-endnote">
+<p>Todeschini, R., &amp; Consonni, V. (2010). New Local Vertex Invariants and Molecular Descriptors Based on Functions of the Vertex Degrees. MATCH - Communications in Mathematical and in Computer Chemistry, 64, 359–372&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14" role="doc-endnote">
+<p>Bonchev, D. (2001). Overall connectivity - A next generation molecular connectivity. Journal of Molecular Graphics and Modelling, 20(1), 65–75. <a href="https://doi.org/10.1016/S1093-3263(01)00101-2">https://doi.org/10.1016/S1093-3263(01)00101-2</a>&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15" role="doc-endnote">
+<p>Balaban, A. T. (1979). Chemical graphs - XXXIV. Five new topological indices for the branching of tree-like graphs [1]. Theoretica Chimica Acta, 53(4), 355–375. <a href="https://doi.org/10.1007/BF00555695">https://doi.org/10.1007/BF00555695</a>&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16" role="doc-endnote">
+<p>Bertz, S. H. (1988). Branching in graphs and molecules. Discrete Applied Mathematics, 19(1–3), 65–83. <a href="https://doi.org/10.1016/0166-218X(88)90006-6">https://doi.org/10.1016/0166-218X(88)90006-6</a>&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17" role="doc-endnote">
+<p>Mauri, A., Consonni, V., Pavan, M., &amp; Todeschini, R. (2006). Dragon software: An easy approach to molecular descriptor calculations. Match Communications In Mathematical And In Computer Chemistry, 56(2), 237–248&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18" role="doc-endnote">
+<p>Narumi, H. (1987). New topological indices for finite and infinite systems. MATCH Communications in Mathematical and in Computer Chemistry, 22, 195–207&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19" role="doc-endnote">
+<p>Needham, D. E., Wei, I. C., &amp; Seybold, P. G. (1988). Molecular Modeling of the Physical Properties of the Alkanes. Journal of the American Chemical Society, 110(13), 4186–4194. <a href="https://doi.org/10.1021/ja00221a015">https://doi.org/10.1021/ja00221a015</a>&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20" role="doc-endnote">
+<p>Pogliani, L. (1996). Modeling with special descriptors derived from a medium-sized set of connectivity indices. Journal of Physical Chemistry, 100(46), 18065–18077. <a href="https://doi.org/10.1021/jp961434c">https://doi.org/10.1021/jp961434c</a>&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21" role="doc-endnote">
+<p>Araujo, O., &amp; De La Peña, J. A. (1998). The connectivity index of a weighted graph. Linear Algebra and Its Applications, 283(1–3), 171–177. <a href="https://doi.org/10.1016/S0024-3795(98)10096-4">https://doi.org/10.1016/S0024-3795(98)10096-4</a>&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22" role="doc-endnote">
+<p>Araujo, O., &amp; De La Peña, J. A. (1998). Some bounds for the connectivity index of a chemical graph. Journal of Chemical Information and Computer Sciences, 38(5), 827–831. <a href="https://doi.org/10.1021/ci980012s">https://doi.org/10.1021/ci980012s</a>&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23" role="doc-endnote">
+<p>L.B. Kier, L.H. Hall, Molecular Connectivity in Structure-Activity Analysis, Research Studies Press - Wiley, Chichester (UK), 1986&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24" role="doc-endnote">
+<p>Wiener, H. (1947). Structural Determination of Paraffin Boiling Points. Journal of American Chemical Society, 69(1), 17–20&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25" role="doc-endnote">
+<p>Schultz, H. P., Schultz, E. B., &amp; Schultz, T. P. (1992). Topological organic chemistry. 4. Graph theory, matrix permanents, and topological indices of alkanes. Journal of Chemical Information and Modeling, 32(1), 69–72. <a href="https://doi.org/10.1021/ci00005a011">https://doi.org/10.1021/ci00005a011</a>&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26" role="doc-endnote">
+<p>Balaban, A. T. (1983). Topological indices based on topological distances in molecular graphs. Pure and Applied Chemistry, 55(2), 199–206. <a href="https://doi.org/10.1351/pac198855020199">https://doi.org/10.1351/pac198855020199</a>&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:27" role="doc-endnote">
+<p>Gupta, S., Singh, M., &amp; Madan, A. K. (1999). Superpendentic index: A novel topological descriptor for predicting biological activity. Journal of Chemical Information and Computer Sciences, 39(2), 272–277. <a href="https://doi.org/10.1021/ci980073q">https://doi.org/10.1021/ci980073q</a>&#160;<a href="#fnref:27" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:28" role="doc-endnote">
+<p>Petitjean, M. (1992). Applications of the Radius-Diameter Diagram to the Classification of Topological and Geometrical Shapes of Chemical Compounds. Journal of Chemical Information and Computer Sciences, 32(4), 331–337. <a href="https://doi.org/10.1021/ci00008a012">https://doi.org/10.1021/ci00008a012</a>&#160;<a href="#fnref:28" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:29" role="doc-endnote">
+<p>Skorobogatov, V. A., &amp; Dobrynin, A. . (1988). Metric analysis of graphs. MATCH - Communications in Mathematical and in Computer Chemistry, 23, 105–151&#160;<a href="#fnref:29" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:30" role="doc-endnote">
+<p>Entringer, R. C., Jackson, D. E., &amp; Snyder, D. A. (1976). Distance in graphs. Czechoslovak Mathematical Journal, 26(2), 283–296. <a href="https://doi.org/10.21136/CMJ.1976.101401">https://doi.org/10.21136/CMJ.1976.101401</a>&#160;<a href="#fnref:30" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:31" role="doc-endnote">
+<p>Bonchev, D. (1983). Information theoretic indices for characterization of chemical structures (Vol. 5). Chichester (UK): Research Studies Press&#160;<a href="#fnref:31" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:32" role="doc-endnote">
+<p>Schultz, H. P. (1989). Topological organic chemistry. 1. Graph theory and topological indices of alkanes. Journal of Chemical Information and Computer Sciences, 29(3), 227–228. <a href="https://doi.org/10.1021/ci00063a012">https://doi.org/10.1021/ci00063a012</a>&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:33" role="doc-endnote">
+<p>Gutman, I. (1994). Selected Properties of the Schultz Molecular Topological Index. Journal of Chemical Information and Computer Sciences, 34(5), 1087–1089. <a href="https://doi.org/10.1021/ci00021a009">https://doi.org/10.1021/ci00021a009</a>&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:34" role="doc-endnote">
+<p>Ren, B. (1999). A new topological index for QSPR of alkanes. Journal of Chemical Information and Computer Sciences, 39(1), 139–143. <a href="https://doi.org/10.1021/ci980098p">https://doi.org/10.1021/ci980098p</a>&#160;<a href="#fnref:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:35" role="doc-endnote">
+<p>Sharma, V., Goswami, R., &amp; Madan, A. K. (1997). Eccentric connectivity index: A novel highly discriminating topological descriptor for structure-property and structure-activity studies. Journal of Chemical Information and Computer Sciences, 37(2), 273–282. <a href="https://doi.org/10.1021/ci960049h">https://doi.org/10.1021/ci960049h</a>&#160;<a href="#fnref:35" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:36" role="doc-endnote">
+<p>Lukovits, I. (1998). An all-path version of the Wiener index. Journal of Chemical Information and Computer Sciences, 38(2), 125–129. <a href="https://doi.org/10.1021/ci9700541">https://doi.org/10.1021/ci9700541</a>&#160;<a href="#fnref:36" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:37" role="doc-endnote">
+<p>Kier, L. B. (1986). Shape Indexes of Orders One and Three from Molecular Graphs. Quantitative Structure‐Activity Relationships, 5(1), 1–7. <a href="https://doi.org/10.1002/qsar.19860050102">https://doi.org/10.1002/qsar.19860050102</a>&#160;<a href="#fnref:37" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:38" role="doc-endnote">
+<p>Kier, L. B. (1986). Distinguishing Atom Differences in a Molecular Graph Shape Index. Quantitative Structure‐Activity Relationships, 5(1), 7–12. <a href="https://doi.org/10.1002/qsar.19860050103">https://doi.org/10.1002/qsar.19860050103</a>&#160;<a href="#fnref:38" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:39" role="doc-endnote">
+<p>Kier, L. B. (1989). An Index of Molecular Flexibility from Kappa Shape Attributes. Quantitative Structure-Activity Relationships, 8(3), 221–224. <a href="https://doi.org/10.1002/qsar.19890080307">https://doi.org/10.1002/qsar.19890080307</a>&#160;<a href="#fnref:39" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:40" role="doc-endnote">
+<p>Randić, M. (2001). Novel Shape Descriptors for Molecular Graphs. Journal of Chemical Information and Computer Sciences, 41(3), 607–613. <a href="https://doi.org/10.1021/ci0001031">https://doi.org/10.1021/ci0001031</a>&#160;<a href="#fnref:40" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:41" role="doc-endnote">
+<p>Hall, L. H., Mohney, B., &amp; Kier, L. B. (1991). The Electrotopological State: An Atom Index for QSAR. Quantitative Structure‐Activity Relationships, 10(1), 43–51&#160;<a href="#fnref:41" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:42" role="doc-endnote">
+<p>Gramatica, P., Corradi, M., &amp; Consonni, V. (2000). Modelling and prediction of soil sorption coefficients of non-ionic organic pesticides by molecular descriptors. Chemosphere, 41(5), 763–777. <a href="https://doi.org/10.1016/S0045-6535(99)00463-4">https://doi.org/10.1016/S0045-6535(99)00463-4</a>&#160;<a href="#fnref:42" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:43" role="doc-endnote">
+<p>Voelkel, A. (1994). Structural descriptors in organic chemistry-new topological parameter based on electrotopological state of graph vertices. Computers and Chemistry, 18(1), 1–4. <a href="https://doi.org/10.1016/0097-8485(94)80016-2">https://doi.org/10.1016/0097-8485(94)80016-2</a>&#160;<a href="#fnref:43" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:44" role="doc-endnote">
+<p>Pogliani, L. (2000). Modeling with Molecular Pseudoconnectivity Descriptors. A Useful Extension of the Intrinsic I-State Concept. The Journal of Physical Chemistry A, 104(39), 9029–9045. <a href="https://doi.org/10.1021/jp001191v">https://doi.org/10.1021/jp001191v</a>&#160;<a href="#fnref:44" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:45" role="doc-endnote">
+<p>Pogliani, L. (2004). Modeling with indices obtained from complete graphs. Croatica Chemica Acta, 77(1–2), 193–201&#160;<a href="#fnref:45" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+            </div> 
+        
+        </div> 
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="../descriptors/ring_descriptors.html" title="Ring descriptors"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="../descriptors/walk_and_path_counts.html" title="Walk and path counts" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="../js/clipboard.min.js?1652262105"></script>
+    <script src="../js/perfect-scrollbar.min.js?1652262105"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1652262105"></script>
+    <script src="../js/jquery.sticky-kit.min.js?1652262105"></script>
+    <script src="../js/featherlight.min.js?1652262105"></script>
+    <script src="../js/html5shiv-printshiv.min.js?1652262105"></script>
+    <script src="../js/highlight.pack.js?1652262105"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../js/modernizr.custom.71422.js?1652262105"></script>
+    <script src="../js/learn.js?1652262105"></script>
+    <script src="../js/hugo-learn.js?1652262105"></script>
+
+    <link href="../mermaid/mermaid.css?1652262105" type="text/css" rel="stylesheet" />
+    <script src="../mermaid/mermaid.js?1652262105"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+
+    
+
+  </body>
+</html>
+

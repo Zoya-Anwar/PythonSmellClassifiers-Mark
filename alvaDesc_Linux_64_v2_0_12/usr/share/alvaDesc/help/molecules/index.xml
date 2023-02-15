@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Molecules on alvaDesc</title>
+    <link>./molecules.html</link>
+    <description>Recent content in Molecules on alvaDesc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="./molecules/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Molecule representation</title>
+      <link>./molecules/molecule_representation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./molecules/molecule_representation.html</guid>
+      <description>In order to represent a molecule in the same way, independently from the original representation, alvaDesc performs the following standardisation steps on molecular structures:
+  Nitro group standardisation
+  Aromatization
+  Implicit hydrogens
+  alvaDesc standardisation is performed in order to get the same internal molecular representation, and consequently the same descriptor values, independently from the original representation. i.e., the same molecule represented in a Kekulé or aromatic form will be internally represented as the same molecule.</description>
+    </item>
+    
+    <item>
+      <title>Disconnected structures</title>
+      <link>./molecules/disconnected_structures.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./molecules/disconnected_structures.html</guid>
+      <description>alvaDesc calculates molecular descriptors both on full-connected and non-full-connected molecular structures, such as salts, mixtures, ionic liquids and metal complexes.
+Fig 1 1-Butyl-3-methylimidazolium hexafluorophosphate1-Butyl-3-methylimidazolium hexafluorophosphate is an example of a non-full-connected structure (consisting of two disjoint substructures), it is a viscous, colourless, hydrophobic and non-water-soluble ionic liquid.
+Calculation of molecular descriptors on disconnected structures alvaDesc provides six different theoretical approaches for the calculation of molecular descriptors on such structures:</description>
+    </item>
+    
+    <item>
+      <title>Partial charges</title>
+      <link>./molecules/partial_charges.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./molecules/partial_charges.html</guid>
+      <description>The molecule partial charges can be calculated by alvaDesc using the Gasteiger&amp;rsquo;s &amp;ldquo;Partial Equalization of Orbital Electronegativity&amp;rdquo; (PEOE).1,2 This is an algorithmic way to calculate partial charges that is similar to, but faster than the ones based on quantum mechanical calculations (e.g., Mulliken population analysis).2
+The PEOE is based on the calculation of the electronegativity for each atom of the molecule which can be determined using a set of defined coefficients.</description>
+    </item>
+    
+    <item>
+      <title>Complex molecules</title>
+      <link>./molecules/complex_molecules.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./molecules/complex_molecules.html</guid>
+      <description>Molecules with many rings, especially if they are fused rings, can significantly affect the speed of alvaDesc while opening them or while calculating some descriptors on them. You can change the following parameters to adjust alvaDesc&amp;rsquo;s behavior while dealing with such molecules:
+   Name Description     MaxCircuits Maximum number of circuits   MaxSRDetour Maximum number of smallest rings1 for detour distance calculation   MaxAtomWalkPath Maximum number of atoms for path and walk descriptors calculation    These parameters can be modified in the Script file, when using the CLI, or in the Options window of the GUI.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphical User Interface on alvaDesc</title>
+    <link>./gui.html</link>
+    <description>Recent content in Graphical User Interface on alvaDesc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="./gui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Load the molecules</title>
+      <link>./gui/load_molecules.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/load_molecules.html</guid>
+      <description>You can load molecules inside alvaDesc by clicking File on the menu bar and clicking Open. A file dialog will allow you to open the most common chemical file formats (e.g: SMILES, MDL, &amp;hellip;). Once loaded the molecules will be shown in the main window and you will be able to tell how many you have imported by checking the status bar.
+If you click Open again, you can either decide to add more molecules to the current set or to start a new project with the new set of molecules.</description>
+    </item>
+    
+    <item>
+      <title>Calculate descriptors</title>
+      <link>./gui/calculate_descriptors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/calculate_descriptors.html</guid>
+      <description>In order to calculate the descriptors click Calculation on the menu bar and choose Descriptors. A window will appear showing all the available descriptors divided into different sections.
+From here you can:
+  Search for a specific descriptor
+  Select the single descriptors or sections that include them
+  Load or save a template that contains a list of selected descriptors
+  Check the number of descriptors currently selected</description>
+    </item>
+    
+    <item>
+      <title>Calculate fingerprints</title>
+      <link>./gui/calculate_fingerprints.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/calculate_fingerprints.html</guid>
+      <description>Two types of molecular fingerprints can be calculated by alvaDesc:
+  Hashed fingerprints
+  MACCS 166 fingerprints
+  To access them click Calculation on the menu bar.</description>
+    </item>
+    
+    <item>
+      <title>Analyse the calculated data</title>
+      <link>./gui/analyse_data.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/analyse_data.html</guid>
+      <description>The calculated descriptors can be analysed by clicking Analysis on the menu bar and then choosing either:
+  Univariate statistics shows basic statistical data about the descriptors (mean, standard deviation, etc.)
+  Principal Component Analysis can be used to perform the well-known PCA statistical procedure. At the end of the analysis the PCA Loadings and Scores plots will be shown
+  t-distributed stochastic neighbor embedding (t-SNE) analysis1,2 can be used to perform dimensionality reduction of the molecular descriptors in a two-dimensional space.</description>
+    </item>
+    
+    <item>
+      <title>Check the charts</title>
+      <link>./gui/check_charts.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/check_charts.html</guid>
+      <description>If you click Charts on the menu bar you can choose either:
+  Histogram
+  Bar plot
+  Scatter plot
+  PCA plot which shows both PCA Loadings and Scores
+  t-SNE plot which shows the 2-dimensions t-SNE plot
+  The selected plot will be shown in the main window, on the right-hand side you can select the descriptors (or Principal Components in case of PCA) to be used in the plot.</description>
+    </item>
+    
+    <item>
+      <title>Save and export data</title>
+      <link>./gui/save_export_data.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/save_export_data.html</guid>
+      <description>Once calculated, the descriptors can be exported to tab-separated text by clicking File on the menu bar and choose Save descriptors. In case of a large number of descriptors, alvaDesc will ask if you want to perform a variable reduction. The variable reduction options are:
+ Constant values: constant descriptors won&amp;rsquo;t be saved Near constant values: descriptors containing all but one equal values won&amp;rsquo;t be saved Standard deviation less than: descriptors with standard deviation values lower than the one specified won&amp;rsquo;t be saved At least one missing value: descriptors with at least one missing value (na) won&amp;rsquo;t be saved All missing values: descriptors with all missing values (na) won&amp;rsquo;t be saved Pair correlation larger or equal to: alvaDescGUI applies the fast V-WSP (variable reduction method adapted from space-filling designs)1 using the specified value as threshold  Fingerprints can be exported to tab-separated text files by clicking File on the menu bar, by choosing Save fingerprints and then by selecting the desired type from the calculated fingerprints (e.</description>
+    </item>
+    
+    <item>
+      <title>Script wizard</title>
+      <link>./gui/script_wizard.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/script_wizard.html</guid>
+      <description>The Script wizard is a graphical user interface that allows the generation a script file through a series of steps. The script file generated can then be used with the alvaDescCLI software to automate the calculation of descriptors and fingerprints.
+To access it click File on the menu bar and choose Script wizard.</description>
+    </item>
+    
+    <item>
+      <title>Log file</title>
+      <link>./gui/log_file.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./gui/log_file.html</guid>
+      <description>In case of problems during the use of alvaDesc, the Alvascience team may ask you to send them a log file. Here is a simple procedure for saving a log file:
+ click Help (or the Apple symbol on macOS) on the menu bar and choose Log file change the Log level to the number indicated by the Alvascience team click Ok reproduce the sequence of actions that generate your problem open the Log file interface again and click Save As to save a copy of the log file  The log should be activated only for debugging purposes and if indicated by the Alvascience team.</description>
+    </item>
+    
+  </channel>
+</rss>

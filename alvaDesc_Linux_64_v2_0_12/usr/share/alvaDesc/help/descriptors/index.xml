@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Descriptors on alvaDesc</title>
+    <link>./descriptors.html</link>
+    <description>Recent content in Descriptors on alvaDesc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="./descriptors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Constitutional indices</title>
+      <link>./descriptors/constitutional_descriptors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/constitutional_descriptors.html</guid>
+      <description>Constitutional descriptors are the simplest molecular descriptors that can be calculated starting from a molecular structure.
+alvaDesc calculates 50 constitutional descriptors, such as the molecular weight (MW), the number of atoms (nAT) and bonds (nBT), the number of atoms (nSK) and bonds (nBO) in an H-depleted molecular graph, the absolute (e.g., nH, nC, nN, nO, nP, nS) and relative occurrence frequency of specific atom and bond types (H%, C%, O%, X%).</description>
+    </item>
+    
+    <item>
+      <title>Ring descriptors</title>
+      <link>./descriptors/ring_descriptors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/ring_descriptors.html</guid>
+      <description>Ring descriptors are those indices reflecting information about ring and cycles belonging to a molecular structure.
+alvaDesc calculates 35 ring descriptors, such as the number of rings (nCIC), the number of circuits (nCIR) and the number of ring systems (NRS).
+The cyclomatic number (nCIC), also known as circuit rank, is the most known ring descriptor and it is defined as:
+where |E| is the number of bonds, |V| is the number of atoms, and D is the number of disjoint substructures.</description>
+    </item>
+    
+    <item>
+      <title>Topological indices</title>
+      <link>./descriptors/topological_indices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/topological_indices.html</guid>
+      <description>Topological indices (TIs) are two-dimensional descriptors derived from the topological representation of molecular structures (i.e., molecular graph); no information about spatial distribution of the atoms is considered in the calculation of these descriptors1,2.
+Topological indices block provides six logical groups of descriptors:
+ Vertex degree-based indices Distance-based indices MTI indices Path/walk indices E-state indices Centric indices  In addition to the topological indices included in the Topological indices block, alvaDesc calculates some specific blocks of topological indices, such as:</description>
+    </item>
+    
+    <item>
+      <title>Walk and path counts</title>
+      <link>./descriptors/walk_and_path_counts.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/walk_and_path_counts.html</guid>
+      <description>Walk and path counts are topological indices based on the identification of paths, walks and self-returning walks in a H-depleted molecular graph.
+alvaDesc calculates 46 descriptors belonging to the walk and path logical block, divided in five groups:
+  Walk counts
+  Self-returning walk counts
+  Path counts
+  Multiple path counts
+  ID numbers
+  Walk counts A walk is any sequence of adjacent graph edges connecting atom i to atom j.</description>
+    </item>
+    
+    <item>
+      <title>Connectivity indices</title>
+      <link>./descriptors/connectivity_indices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/connectivity_indices.html</guid>
+      <description>Connectivity indices are topological indices calculated on the H-depleted molecular graph where each vertex is weighted by the vertex degree1 or by similar vertex invariants.
+Kier-Hall molecular connectivity indices Connectivity indices (Xk)1 are defined as:
+where k runs over all of the k-th order paths including n vertices and K is the total number of k-th order paths present in the molecular graph. The product is over the vertex degrees δi of all the vertices involved in each subgraph.</description>
+    </item>
+    
+    <item>
+      <title>Information indices</title>
+      <link>./descriptors/information_indices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/information_indices.html</guid>
+      <description>Information indices are molecular descriptors defined in order to capture the information content of molecules. The information content is based on the concept of information entropy introduced by Shannon1.
+alvaDesc defines a set of equivalence classes, the equivalence between the atoms of the molecule is defined with different criteria according to the descriptor.
+The total information content is defined as:
+and the mean information content is defined as:
+where G is the number of different equivalence classes and ng the number of atoms in the g-th class.</description>
+    </item>
+    
+    <item>
+      <title>2D matrix-based descriptors</title>
+      <link>./descriptors/2d_matrix-based.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/2d_matrix-based.html</guid>
+      <description>The 2D matrix-based descriptors1,2 are those calculated using one of the following matrices:
+   ID Matrix Symbol     1 Adjacency matrix A   2 Topological distance matrix D   3 Laplace matrix L   4 Chi matrix X   5 Reciprocal squared distance matrix H2   6 Detour matrix Dt   7 Distance/Detour matrix D/Dt   8-13 Barysz matrix Dz(w)   14-19 Burden matrix B(w)    These matrices are calculated on the H-depleted molecular graph.</description>
+    </item>
+    
+    <item>
+      <title>2D autocorrelations</title>
+      <link>./descriptors/2d_autocorrelation.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/2d_autocorrelation.html</guid>
+      <description>Autocorrelation descriptors are a heterogeneous class of molecular descriptors whose general formula is the following:
+where L is a generic local vertex invariant; α and λ are a scaling and a power parameter, respectively; and δ(dij;k) is a Kronecker delta function equal to one for pairs of substructure centres at topological distance dij = k and zero otherwise; A is the number of substructure centres that typically are the molecule atoms.</description>
+    </item>
+    
+    <item>
+      <title>Burden eigenvalues</title>
+      <link>./descriptors/burden_eigenvalues.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/burden_eigenvalues.html</guid>
+      <description>The Burden eigenvalues are calculated on the Burden matrices1 of the H-filled molecular graph. alvaDesc calculates two groups of eigenvalues:
+ Largest eigenvalues which contains the 8 largest positive eigenvalues (SpMax1_Bh(w) &amp;hellip; SpMax8_Bh(w)) Smallest eigenvalues which contains the absolute value of the 8 smallest negative eigenvalues (SpMin1_Bh(w) &amp;hellip; SpMin8_Bh(w))  where Bh is the Burden matrix calculated on the H-filled molecular graph and the w is one of the following weighting schemes:</description>
+    </item>
+    
+    <item>
+      <title>P_VSA-like descriptors</title>
+      <link>./descriptors/p_vsa.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/p_vsa.html</guid>
+      <description>alvaDesc calculates 69 P_VSA-like descriptors.
+P_VSA-like descriptors are based on the sum of atomic contributions to van der Waals surface area, for the atoms having a property in a defined range of values1.
+The van der Waals surface area is defined for each atom as:
+where Ri is the atomic van der Waals radius of the atom i as defined in Table 1, nAT is the number of atoms, aij are the elements of the adjacency matrix and dij is calculated as:</description>
+    </item>
+    
+    <item>
+      <title>ETA indices</title>
+      <link>./descriptors/eta_indices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/eta_indices.html</guid>
+      <description>ETA indices comprise a set of two generation descriptors1,2,3 defining chemical features at the atomic as well as molecular level.
+The ETA indices have been defined using a few graph theoretic parameters as well as some electronic indices to describe the bonding pattern, unsaturation, electronegativity and hydrogen-bonding related information.
+The definition of the ETA indices is based on five atom parameters: the core count (α), the electronegativity count (ε), the hydrogen-bonding propensity (ψ), the Valence Electron Mobile (VEM) count (β) and the VEM vertex count (γ).</description>
+    </item>
+    
+    <item>
+      <title>Edge adjacency indices</title>
+      <link>./descriptors/edge_adjacency_indices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/edge_adjacency_indices.html</guid>
+      <description>Edge adjacency indices are topological indices based on edge adjacency matrix (EA), augmented edge adjacency matrices (AEA) and unsymmetrical weighted edge adjacency matrices (EA(w)) of a H-depleted molecular graph.
+The edge adjacency matrix (EA) is a square symmetric matrix of dimension nBO, where nBO is the number of bonds in an H-depleted molecular graph. The entries of the matrix equal one if the considered bonds are adjacent and zero otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Geometrical descriptors</title>
+      <link>./descriptors/geometrical.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/geometrical.html</guid>
+      <description>The Geometrical descriptors are a collection of descriptors calculated taking into account the three-dimensional structure of the molecule, i.e., the position of the atoms in the three-dimensional space.
+These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.
+ The Geometrical descriptors are divided in four groups:
+ Size indices Shape indices Delocalization-degree indices COMMA descriptors  Geometrical descriptors potentially have higher information content than two-dimensional descriptors, but they have to be treated carefully since their values vary modifying the molecule conformation and may be very sensitive to slight changes in the three-dimensional arrangements.</description>
+    </item>
+    
+    <item>
+      <title>3D matrix-based descriptors</title>
+      <link>./descriptors/3d_matrix-based.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/3d_matrix-based.html</guid>
+      <description>The 3D matrix-based descriptors are those calculated using one of the following matrices:
+   ID Matrix Symbol     1 Geometrical distance matrix G   2 Reciprocal squared geometrical distance matrix RG   3 Distance/distance matrix G/D   4 Coulomb matrix Coulomb    These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.
+ Geometrical distance matrix The Geometrical distance matrix (G) is a square symmetric matrix containing the Euclidean distances, taken pairwise, between the atoms of a molecule.</description>
+    </item>
+    
+    <item>
+      <title>3D autocorrelations</title>
+      <link>./descriptors/3d_autocorrelations.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/3d_autocorrelations.html</guid>
+      <description>3D autocorrelation descriptors are based on a modified autocorrelation approach for which 3D structural information is included.
+3D autocorrelation descriptors theory is based on the assumption that the relationship between topological and Euclidean distance is able to provide significant 3D-structural information, i.e. different conformations of the same molecular structure affects the Euclidean but not the topological distance between two atoms 1.
+These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.</description>
+    </item>
+    
+    <item>
+      <title>RDF descriptors</title>
+      <link>./descriptors/rdf.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/rdf.html</guid>
+      <description>The RDF descriptors take their name from the Radial Distribution Function. The radial distribution function of an ensemble of n atoms can be interpreted as the probability distribution to find an atom in a given spherical volume1.
+These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.
+ They are calculated using the following formula:
+where:
+ nAT is the number of atoms w is one of the following weighting scheme:  u: unweighted, in this case wi and wj are equal to 1 m: atomic mass v: atomic van der Waals volume e: Sanderson electronegativity p: atomic polarizability i: atomic ionization potential s: intrinsic state   R: is the radius of the spherical volume.</description>
+    </item>
+    
+    <item>
+      <title>3D-MoRSE descriptors</title>
+      <link>./descriptors/3d_morse.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/3d_morse.html</guid>
+      <description>3D-MoRSE stands for 3D Molecule Representation of Structures based on Electron diffraction1. The 3D-MoRSE descriptors transform the 3D coordinates into a molecular code with a modified equation used in electron diffraction studies for preparing theoretical scattering curves2.
+These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.
+ They are calculated using the following formula:
+where:
+ nAT is the number of atoms w is one of the following weighting scheme:  u: unweighted, in this case wi and wj are equal to 1 m: atomic mass v: atomic van der Waals volume e: Sanderson electronegativity p: atomic polarizability i: atomic ionization potential s: intrinsic state   s: is the scattering parameter rij is the geometrical distance between the atoms i and j  The formula is calculated for 32 evenly distributed values of s in the range of 0 - 31.</description>
+    </item>
+    
+    <item>
+      <title>WHIM descriptors</title>
+      <link>./descriptors/whim.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/whim.html</guid>
+      <description>The Weighted Holistic Invariant Molecular (WHIM)1,2 descriptors comprise information about size, shape, symmetry and atom distribution of the molecule. Due to the way they are calculated, they are invariant to translation and rotation and, therefore, they avoid any molecule alignment problem.
+These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.
+ They are based on an algorithm that involves the calculation of the weighted covariance matrix (S)1,3,4 which is a three by three matrix defined as follow:</description>
+    </item>
+    
+    <item>
+      <title>GETAWAY descriptors</title>
+      <link>./descriptors/getaway.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/getaway.html</guid>
+      <description>The GEometry, Topology, and Atom-Weights AssemblY (GETAWAY)1,2 descriptors encode both geometrical and topological information of the molecule. They are all based on the calculation of the molecular influence matrix (H):
+where M is the symmetric matrix containing the 3D coordinates of the H-filled molecular graph. The 3D coordinates are centred to the geometrical centre of the molecule. Therefore, H is a symmetric matrix and is rotational invariant with respect to the molecule coordinates.</description>
+    </item>
+    
+    <item>
+      <title>Randic molecular profiles</title>
+      <link>./descriptors/randic_molecular_profiles.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/randic_molecular_profiles.html</guid>
+      <description>The Randic molecular profiles outline a numerical characterization of the molecular shape1. The molecular shape is represented by a sequence of values, e.g.:
+These sequences can be used to compare molecules.
+These descriptors can only be calculated for molecules having 3D coordinates.
+ They are calculated using the following formula:
+where:
+ nAT is the number of atoms rij is the geometrical distance between the atoms i and j  The formula is calculated for 20 values of k in the range of 1 - 20 and is applied to:</description>
+    </item>
+    
+    <item>
+      <title>Functional group count</title>
+      <link>./descriptors/functional_groups.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/functional_groups.html</guid>
+      <description>alvaDesc calculates 154 functional group counts.
+   ID Symbol Description     1 nCp number of terminal primary C(sp3)   2 nCs number of total secondary C(sp3)   3 nCt number of total tertiary C(sp3)   4 nCq number of total quaternary C(sp3)   5 nCrs number of ring secondary C(sp3)   6 nCrt number of ring tertiary C(sp3)   7 nCrq number of ring quaternary C(sp3)   8 nCar number of aromatic C(sp2)   9 nCbH number of unsubstituted benzene C(sp2)   10 nCb- number of substituted benzene C(sp2)   11 nCconj number of non-aromatic conjugated C(sp2)   12 nR=Cp number of terminal primary C(sp2)   13 nR=Cs number of aliphatic secondary C(sp2)   14 nR=Ct number of aliphatic tertiary C(sp2)   15 n=C= number of allenes groups   16 nR#CH/X number of terminal C(sp)   17 nR#C- number of non-terminal C(sp)   18 nROCN number of cyanates (aliphatic)   19 nArOCN number of cyanates (aromatic)   20 nRNCO number of isocyanates (aliphatic)   21 nArNCO number of isocyanates (aromatic)   22 nRSCN number of thiocyanates (aliphatic)   23 nArSCN number of thiocyanates (aromatic)   24 nRNCS number of isothiocyanates (aliphatic)   25 nArNCS number of isothiocyanates (aromatic)   26 nRCOOH number of carboxylic acids (aliphatic)   27 nArCOOH number of carboxylic acids (aromatic)   28 nRCOOR number of esters (aliphatic)   29 nArCOOR number of esters (aromatic)   30 nRCONH2 number of primary amides (aliphatic)   31 nArCONH2 number of primary amides (aromatic)   32 nRCONHR number of secondary amides (aliphatic)   33 nArCONHR number of secondary amides (aromatic)   34 nRCONR2 number of tertiary amides (aliphatic)   35 nArCONR2 number of tertiary amides (aromatic)   36 nROCON number of (thio-) carbamates (aliphatic)   37 nArOCON number of (thio-) carbamates (aromatic)   38 nRCOX number of acyl halogenides (aliphatic)   39 nArCOX number of acyl halogenides (aromatic)   40 nRCSOH number of thioacids (aliphatic)   41 nArCSOH number of thioacids (aromatic)   42 nRCSSH number of dithioacids (aliphatic)   43 nArCSSH number of dithioacids (aromatic)   44 nRCOSR number of thioesters (aliphatic)   45 nArCOSR number of thioesters (aromatic)   46 nRCSSR number of dithioesters (aliphatic)   47 nArCSSR number of dithioesters (aromatic)   48 nRCHO number of aldehydes (aliphatic)   49 nArCHO number of aldehydes (aromatic)   50 nRCO number of ketones (aliphatic)   51 nArCO number of ketones (aromatic)   52 nCONN number of urea (-thio) derivatives   53 nC=O(O)2 number of carbonate (-thio) derivatives   54 nN=C-N&amp;lt; number of amidine derivatives   55 nC(=N)N2 number of guanidine derivatives   56 nRC=N number of imines (aliphatic)   57 nArC=N number of imines (aromatic)   58 nRCNO number of oximes (aliphatic)   59 nArCNO number of oximes (aromatic)   60 nRNH2 number of primary amines (aliphatic)   61 nArNH2 number of primary amines (aromatic)   62 nRNHR number of secondary amines (aliphatic)   63 nArNHR number of secondary amines (aromatic)   64 nRNR2 number of tertiary amines (aliphatic)   65 nArNR2 number of tertiary amines (aromatic)   66 nN-N number of N hydrazines   67 nN=N number of N azo-derivatives   68 nRCN number of nitriles (aliphatic)   69 nArCN number of nitriles (aromatic)   70 nN+ number of positively charged N   71 nNq number of quaternary N   72 nRNHO number of hydroxylamines (aliphatic)   73 nArNHO number of hydroxylamines (aromatic)   74 nRNNOx number of N-nitroso groups (aliphatic)   75 nArNNOx number of N-nitroso groups (aromatic)   76 nRNO number of nitroso groups (aliphatic)   77 nArNO number of nitroso groups (aromatic)   78 nRNO2 number of nitro groups (aliphatic)   79 nArNO2 number of nitro groups (aromatic)   80 nN(CO)2 number of imides (-thio)   81 nC=N-N&amp;lt; number of hydrazones   82 nROH number of hydroxyl groups   83 nArOH number of aromatic hydroxyls   84 nOHp number of primary alcohols   85 nOHs number of secondary alcohols   86 nOHt number of tertiary alcohols   87 nROR number of ethers (aliphatic)   88 nArOR number of ethers (aromatic)   89 nROX number of hypohalogenides (aliphatic)   90 nArOX number of hypohalogenides (aromatic)   91 nO(C=O)2 number of anhydrides (-thio)   92 nH2O number of water molecules   93 nSH number of thiols   94 nC=S number of thioketones   95 nRSR number of sulfides   96 nRSSR number of disulfides   97 nSO number of sulfoxides   98 nS(=O)2 number of sulfones   99 nSOH number of sulfenic (thio-) acids   100 nSOOH number of sulfinic (thio-/dithio-) acids   101 nSO2OH number of sulfonic (thio-/dithio-) acids   102 nSO3OH number of sulfuric (thio-/dithio-) acids   103 nSO2 number of sulfites (thio-/dithio-)   104 nSO3 number of sulfonates (thio-/dithio-)   105 nSO4 number of sulfates (thio-/dithio-)   106 nSO2N number of sulfonamides (thio-/dithio-)   107 nPO3 number of phosphites/thiophosphites   108 nPO4 number of phosphates/thiophosphates   109 nPR3 number of phosphanes   110 nP(=O)O2R number of phosphonates (thio-)   111 nP(=O)R3/nPR5 number of phosphoranes (thio-)   112 nCH2RX number of CH2RX   113 nCHR2X number of CHR2X   114 nCR3X number of CR3X   115 nR=CHX number of R=CHX   116 nR=CRX number of R=CRX   117 nR#CX number of R#CX   118 nCHRX2 number of CHRX2   119 nCR2X2 number of CR2X2   120 nR=CX2 number of R=CX2   121 nCRX3 number of CRX3   122 nArX number of X on aromatic ring   123 nCXr number of X on ring C(sp3)   124 nCXr= number of X on ring C(sp2)   125 nCconjX number of X on exo-conjugated C   126 nAziridines number of Aziridines   127 nOxiranes number of Oxiranes   128 nThiranes number of Thiranes   129 nAzetidines number of Azetidines   130 nOxetanes number of Oxetanes   131 nThioethanes number of Thioethanes   132 nBeta-Lactams number of Beta-Lactams   133 nPyrrolidines number of Pyrrolidines   134 nOxolanes number of Oxolanes   135 ntH-Thiophenes number of tetrahydro-thiophenes   136 nPyrroles number of Pyrroles   137 nPyrazoles number of Pyrazoles   138 nImidazoles number of Imidazoles   139 nFuranes number of Furanes   140 nThiophenes number of Thiophenes   141 nOxazoles number of Oxazoles   142 nIsoxazoles number of Isoxazoles   143 nThiazoles number of Thiazoles   144 nIsothiazoles number of Isothiazoles   145 nTriazoles number of Triazoles   146 nPyridines number of Pyridines   147 nPyridazines number of Pyridazines   148 nPyrimidines number of Pyrimidines   149 nPyrazines number of Pyrazines   150 n135-Triazines number of 1-3-5-Triazines   151 n124-Triazines number of 1-2-4-Triazines   152 nHDon number of donor atoms for H-bonds (N and O)   153 nHAcc number of acceptor atoms for H-bonds (N,O,F)   154 nHBonds number of intramolecular H-bonds (with N,O,F)    Table 1: Symbol and descriptions of the 154 functional groups calculated by alvaDescThe number of donor atoms for H-bonds (nHDon) is calculated by summing the hydrogen atoms bonded to any nitrogen or oxygen.</description>
+    </item>
+    
+    <item>
+      <title>Atom-centred fragments</title>
+      <link>./descriptors/atom_centred_fragments.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/atom_centred_fragments.html</guid>
+      <description>Atom-centred fragments block includes 115 structural features originally proposed for the prediction of octanol-water partition coefficient (log P) and molar refractivity (MR)1,2.
+Structural feature definitions and their coefficient for the calculation of ALOGP and AMR descriptors is provided in the table below.
+   ID Symbol Description Hydrophobicity MR     1 C-001 CH3R, CH4 -1.5603 2.9680   2 C-002 CH2R2 -1.0120 2.9116   3 C-003 CHR3 -0.</description>
+    </item>
+    
+    <item>
+      <title>Atom-type E-state indices</title>
+      <link>./descriptors/atom-type_e-state_indices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/atom-type_e-state_indices.html</guid>
+      <description>The Atom-type E-state indices provide information combining both the electronic character and the topological environment of the atoms in a molecule1. These indices are associated to specific Atom-type as proposed by Hall and Kier2. They are divided in four groups:
+ E-state sums Atom-type counts E-state minimum E-state maximum  The E-state sums (S followed by the Kier-Hall symbol) are the summation of the electrotopological states of the specific atom-types in the molecule.</description>
+    </item>
+    
+    <item>
+      <title>Pharmacophore descriptors</title>
+      <link>./descriptors/pharmacophore.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/pharmacophore.html</guid>
+      <description>Pharmacophore descriptors block includes two different types of descriptors:
+  Chemically Advanced Template Search descriptors (CATS 2D)
+  Shannon Entropy Descriptors (SHED)
+  Chemically Advanced Template Search descriptors (CATS 2D) CATS 2D descriptors, as well as 2D atom pairs, are a particular case of autocorrelation descriptors, the atom-type autocorrelation descriptors (ATAC)1 and they are defined as:
+where u and v represent two different atom types and δ(i;u), δ(j;v), and δ(dij;k) are three Kronecker delta functions equal to one if atom i is of type u, atom j is of type v, and the topological distance dij is equal to k, respectively, zero otherwise.</description>
+    </item>
+    
+    <item>
+      <title>2D Atom Pairs</title>
+      <link>./descriptors/2d_atom_pairs.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/2d_atom_pairs.html</guid>
+      <description>2D atom pairs block include two different type of descriptors:
+ Weighted topological atom pairs Binary / Frequency atom pairs  Weighted topological atom pairs Weighted topological atom pairs are defined as the sums of topological distances between all pairs of atom type included in the following set: N, O, S, P, F, Cl, Br, I.
+They are defined as follows:
+where u and v represent two different atom types, dij is the topological distance between the atom i and the atom j and δ(i;u), δ(j;v) are two Kronecker delta functions equal to one if atom i is of type u, atom j is of type v, respectively, zero otherwise.</description>
+    </item>
+    
+    <item>
+      <title>3D Atom Pairs</title>
+      <link>./descriptors/3d_atom_pairs.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/3d_atom_pairs.html</guid>
+      <description>3D Atom Pairs are defined as the weighted topological atom pairs, but using Euclidean interatomic distances instead of topological distances.
+These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.
+ They are defined as follows:
+where u and v represent two different atom types, rij is the Euclidean distance between the atom i and the atom j and δ(i;u), δ(j;v) are two Kronecker delta functions equal to one if atom i is of type u, atom j is of type v, respectively, zero otherwise.</description>
+    </item>
+    
+    <item>
+      <title>Charge descriptors</title>
+      <link>./descriptors/charge_descriptors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/charge_descriptors.html</guid>
+      <description>The Charge descriptors describe the molecule based on its atomic charges.
+The molecule partial charges can be automatically calculated by alvaDesc. Please check Partial charges chapter for more information.
+ Given that the partial charge (qi) of a given atom i can be either positive:
+or negative:
+these are the formulas of the charge descriptors:
+   Symbol Descriptor name Formula     qpmax Maximum Positive Charge    qnmax Maximum Negative Charge    Qpos Total Positive Charge    Qneg Total Negative Charge    Qtot Total Absolute Charge (Electronic Charge Index - ECI)1    Qmean Mean Absolute Charge (Charge Polarization)2    Q2 Total Squared Charge    RPCG Relative Positive Charge3    RNCG Relative Negative Charge3    SPP Submolecular Polarity Parameter4,5    TE1 Topographic Electronic Descriptor2,6,5    TE2 Topographic Electronic Descriptor (Bond Restricted)    PCWTE1 Partial Charge Weighted Topological Electronic Index7    PCWTE2 Partial Charge Weighted Topological Electronic Index (Bond Restricted)    LDI Local Dipole Index8,9,5     Notes on the formulas:</description>
+    </item>
+    
+    <item>
+      <title>Molecular properties</title>
+      <link>./descriptors/molecular_properties.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/molecular_properties.html</guid>
+      <description>alvaDesc calculates 27 molecular properties.
+Uc is an information index considering the unsaturated bonds and it is defined as:
+where nDB, nTB and nAB are respectively the number of double, triple and aromatic bonds.
+Ui is the unsaturation index1 and is calculated as follow:
+where SCBO is the sum of conventional bond orders in the H-depleted molecular graph and nBO is the total number of non-hydrogen bonds.
+Hy is the hydrophilic factor which is a hydrophilicity descriptor defined as2:</description>
+    </item>
+    
+    <item>
+      <title>Drug-like indices</title>
+      <link>./descriptors/drug_like_indices.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/drug_like_indices.html</guid>
+      <description>alvaDesc calculates 30 drug-like indices.
+Ro5 is the Lipinski&amp;rsquo;s rule of five, a rule of thumb to evaluate drug-likeness of chemical compounds. Ro5 have been applied to the design of orally active compounds1,2.
+Ro5 states that poor absorption or permeation are more likely when:
+ there are more than 5 H-bond donors nHDon there are more than 10 H-bond acceptors (N + O) molecular weight MW &amp;gt; 500 Moriguchi&amp;rsquo;s logP MLOGP &amp;gt; 4.</description>
+    </item>
+    
+    <item>
+      <title>CATS 3D descriptors</title>
+      <link>./descriptors/cats3d.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/cats3d.html</guid>
+      <description>CATS3D descriptors1 are a special type of three-dimensional autocorrelation descriptors. They can be considered the three-dimensional counterpart of the CATS 2D descriptors.
+These descriptors can only be calculated for molecules having 3D coordinates for all atoms, including hydrogen atoms.
+ CATS 3D descriptors are calculated considering the Euclidean interatomic distance split in 20 distance bins (from 0 to 20 Å in steps of 1 Å), since any atom of the molecule can be assigned to none, one, or two potential pharmacophore points (PPP) the CATS 3D descriptors result into a vector of 300 values.</description>
+    </item>
+    
+    <item>
+      <title>WHALES descriptors</title>
+      <link>./descriptors/whales.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/whales.html</guid>
+      <description>The Weighted Holistic Atom Localization and Entity Shape (WHALES)1 descriptors have been presented as a way to facilitate scaffold hopping from natural products to isofunctional synthetic compounds. They also have been used for more general virtual compound screening and scaffold hopping2. Their holistic approach allows them to capture many molecular properties at once:
+ geometric interatomic distances molecular shape atomic properties (e.g., partial charge distribution)  These descriptors can only be calculated for molecules having 3D coordinates.</description>
+    </item>
+    
+    <item>
+      <title>MDE descriptors</title>
+      <link>./descriptors/mde.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/mde.html</guid>
+      <description>Molecular Distance Edge (MDE) descriptors1 are based on two fundamental structural variables, the atom types and the distance between atoms in the molecular graph.
+alvaDesc calculates 19 MDE descriptors, considering carbon (MDEC-), oxygen (MDEO-) and nitrogen atoms (MDEN-).
+The carbon atoms are classified by four basic types: type 1 for primary (CH3-), type 2 for secondary (CH2&amp;lt;), type 3 for ternary (-CH&amp;lt;) and type 4 for quaternary (&amp;gt;C&amp;lt;) carbon atoms.</description>
+    </item>
+    
+    <item>
+      <title>Chirality descriptors</title>
+      <link>./descriptors/chirality_descriptors.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/chirality_descriptors.html</guid>
+      <description>The chirality descriptors are a group of descriptors calculated on the chiral centres of a molecule.
+These descriptors can only be calculated for molecules with at least one chiral centre. Only the chiral centers on carbon atoms will be considered.
+ The first two descriptors are the ChiralCenter which represents the number of chiral centres in the molecule and the ringChiralCenter which represents the number of chiral centres that are also ring atoms.</description>
+    </item>
+    
+    <item>
+      <title>Weighting schemes</title>
+      <link>./descriptors/weighting_scheme.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/weighting_scheme.html</guid>
+      <description>alvaDesc makes use of some atomic properties as the atomic weightings for molecular descriptor calculation.
+Atomic properties used as the atomic weightings for descriptor calculation in alvaDesc are:
+ unitary weight (u) atomic number (Z) atomic mass (m) van der Waals volume (v) atom electronegativity (e) atom polarizability (p) ionization potential (i) intrinsic state (s) covalent radius (r)  Atomic masses include the isotopic mass data from G. Audi, A. H.</description>
+    </item>
+    
+    <item>
+      <title>Potential Pharmacophore Points (PPP)</title>
+      <link>./descriptors/potential_pharmacophore_points.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/potential_pharmacophore_points.html</guid>
+      <description>alvaDesc implements five Potential Pharmacophore Points (PPP)1 to be used for the calculation of several descriptors. A Potential Pharmacophore Point (PPP) is a generalised atom type defined considering some physicochemical aspects.
+The five Potential Pharmacophore Points (PPP) implemented in alvaDesc are the following:
+ hydrogen-bond donor (D) hydrogen-bond acceptor (A) positive (P) negative (N) lipophilic (L)  alvaDesc Potential Pharmacophore Points (PPP) implementation follows the rules originally proposed for the calculation of CATS</description>
+    </item>
+    
+    <item>
+      <title>Matrix-based descriptors</title>
+      <link>./descriptors/matrix-based.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/matrix-based.html</guid>
+      <description>The Matrix-based descriptors are those calculated using one of the matrices detailed in the 2D matrix-based descriptors or the 3D matrix-based descriptors chapters.
+Here&amp;rsquo;s the list of the matrix-based descriptors:
+   ID Descriptor name Formula     1 Wi_M - Wiener-like index    2 WiA_M - Average Wiener-like index    3 AVS_M - Average vertex sum    4 H_M - Harary-like index    5 Chi_M - Randic-like index    6 ChiA_M - Average Randic-like index    7 J_M - Balaban-like index    8 HyWi_M - Hyper-Wiener-like index    9 SpAbs_M - Graph energy    10 SpPos_M - Spectral positive sum    11 SpPosA_M - Normalized spectral positive sum    12 SpPosLog_M - Logarithmic spectral positive sum    13 SpMax_M - Leading eigenvalue    14 SpMaxA_M - Normalized leading eigenvalue    15 SpDiam_M - Spectral diameter    16 SpAD_M - Spectral absolute deviation1    17 SpMAD_M - Spectral mean absolute deviation1    18 Ho_M - Hosoya-like index    19 EE_M - Estrada-like index2,3,4    20 SM1_M - Spectral moment of order 1    21 SM2_M - Spectral moment of order 2    22 SM3_M - Spectral moment of order 3    23 SM4_M - Spectral moment of order 4    24 SM5_M - Spectral moment of order 5    25 SM6_M - Spectral moment of order 6    26 VE1_M - Coefficient sum of the last eigenvector (absolute values)5    27 VE2_M - Average coefficient of the last eigenvector (absolute value)5    28 VE3_M - Logarithmic coefficient sum of the last eigenvector (absolute value)5    29 VE1sign_M - Coefficient sum of the last eigenvector    30 VE2sign_M - Average coefficient of the last eigenvector    31 VE3sign_M - Logarithmic coefficient sum of the last eigenvector    32 VR1_M - Randic-like eigenvector-based index    33 VR2_M - Normalized Randic-like eigenvector-based index    34 VR3_M - Logarithmic Randic-like eigenvector-based index     Some notes on the notation used:</description>
+    </item>
+    
+    <item>
+      <title>Descriptors list</title>
+      <link>./descriptors/descriptorlist.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>./descriptors/descriptorlist.html</guid>
+      <description>Complete list of molecular descriptors calculated by alvaDesc:
+ Constitutional indices Ring descriptors Topological indices Walk and path counts Connectivity indices Information indices 2D matrix-based descriptors 2D autocorrelations Burden eigenvalues P_VSA-like descriptors ETA indices Edge adjacency indices Geometrical descriptors 3D matrix-based descriptors 3D autocorrelations RDF descriptors 3D-MoRSE descriptors WHIM descriptors GETAWAY descriptors Randic molecular profiles Functional group counts Atom-centred fragments Atom-type E-state indices Pharmacophore descriptors 2D Atom Pairs 3D Atom Pairs Charge descriptors Molecular properties Drug-like indices CATS 3D descriptors WHALES descriptors MDE descriptors Chirality descriptors  1.</description>
+    </item>
+    
+  </channel>
+</rss>
